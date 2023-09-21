@@ -1,1 +1,1 @@
-# website-clonig
+# website-cloning
