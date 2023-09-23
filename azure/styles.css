@@ -9,9 +9,20 @@
     font-family: font;
     src: url(https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2);
 }
+@font-face {
+    font-family: font1;
+    src: url(https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(https://azure.microsoft.com/etc.clientlibs/onecloud/clientlibs/clientlib-mwf-new/resources/fonts/MWFFluentIcons.woff2);
+}
 
 body{
     font-family: font;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
 }
 
 .tablet {
@@ -24,7 +35,32 @@ body{
 .mobile{
     width: 100%;
 }
+<<<<<<< Updated upstream
 .header {
+=======
+
+.searchbar {
+    display: none;
+}
+
+.lists {
+    display: none;
+}
+
+.hero-ban-position {
+    display: none;
+}
+
+.hero-ban-tab {
+    display: none;
+}
+.feature-navbar{
+    display: none;
+}
+
+
+header {
+>>>>>>> Stashed changes
     color: #1a1a1f;
     font-size: 15px;
     padding: 12px;
@@ -61,6 +97,7 @@ body{
     width: 32px;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< Updated upstream
     /* padding-left: -10px; */
 }
 
@@ -68,6 +105,15 @@ body{
     padding: 20px;
     padding-bottom: 5px;
 }
+=======
+}
+
+.image img {
+    height: 33px;
+    width: 33px;
+}
+
+>>>>>>> Stashed changes
 
 .sign {
     color: #1f1f1a;
@@ -93,6 +139,7 @@ body{
     /* margin-left: auto;
     margin-right: auto; */
     color: #000000;
+<<<<<<< Updated upstream
     padding: 0px 4px;
     width: 100%;
     background-color: #f7f7f7;
@@ -111,6 +158,36 @@ body{
     padding-left: 10px;
     padding-right: 3px;
     padding-top: 20px;
+=======
+    padding-inline: 16px;
+    background-color: #f7f7f7;
+    padding-bottom: 97px;
+    margin-top: -4px;
+}
+
+
+/* .bodytxt h1 {
+    font-size: 32px;
+    color: #0c1420;
+    font-weight: 400%;
+    background-color: #f7f7f7;
+    width: 100%;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 31px;
+    margin-left: -11px;
+    line-height: 2.5rem;
+} */
+.bodytxt {
+    background-color: transparent;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-top: 31px;
+    margin-left: -11px;
+    line-height: 2.5rem;
+    font-family: font1;
+    letter-spacing: -1.7px;
+>>>>>>> Stashed changes
 }
 .para{
     color: #142034;
@@ -118,6 +195,7 @@ body{
     margin:  12px 0px 0px;
     text-align:left;
     background-color: #f7f7f7;
+<<<<<<< Updated upstream
     width: 89%;
     padding-left: 10px;
     padding-right: 8px;
@@ -126,6 +204,13 @@ body{
 .para p{
     background-color: #f7f7f7;
     text-align: left;
+=======
+    text-align: left;
+    width: 100%;
+    padding-bottom: 42px;
+    letter-spacing: -.03em;
+    line-height: 1.75rem;
+>>>>>>> Stashed changes
 }
 .mobilebtn{
     padding-left: 5px;
@@ -166,13 +251,46 @@ body{
     border-radius: 4px;
     padding: 10px;
     width: 140%;
+<<<<<<< Updated upstream
 }
+=======
+    padding: 13px;
+} */
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #f7f7f7;
+    margin: 1px;
+    margin-top: -2px;
+    padding-right: 1px;
+    width: 100%;
+}
+
+.btn-getStart {
+    background-color: #0078D4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 14px;
+}
+
+.btn-tryAzure {
+    color: #243a5e;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: #f7f7f7;
+    padding: 13px 14px;
+}
+
+>>>>>>> Stashed changes
 .feature {
     text-align: left;
     color: #0067b8;
     font-size: 12px;
-    padding-left: 30px;
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     padding: 12px 16px;
@@ -282,8 +400,6 @@ body{
         display: inline-block;
         padding: 4px;
       }
-        
-        
      
 }
 
@@ -291,6 +407,46 @@ body{
     .mobile {
         display: none;
     }
+<<<<<<< Updated upstream
+=======
+    .image {
+        margin-inline: 0;
+        color: #1a1a1f;
+        font-size: 15px;
+        display: flex;
+        align-content: space-around;
+        padding-left: 0px;
+        height: 24px;
+        width: 20%;
+        /* width: 26.25px; */
+    }
+
+    .image img {
+        height: 25px;
+        width: 50px;
+        margin-left: -1px;
+        padding-left: 0px;
+
+    }
+
+    .logo-nav-items {
+        display: flex;
+        padding-bottom: 4px;
+    }
+
+    nav {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+        color: #1a1a1f;
+        font-size: 13px;
+        padding-left: 19px;
+        gap: 18px;
+    }
+
+>>>>>>> Stashed changes
 
     .desktop {
         display: none;
@@ -298,6 +454,7 @@ body{
     .abouts{
         display: none;
     }
+<<<<<<< Updated upstream
     .start{
         display: none;
     }
@@ -323,11 +480,32 @@ body{
         height: 24px;
         width: 26.25px;
     }
+=======
+
+    .dots {
+        color: #1a1a1f;
+        font-size: 13px;
+        padding: 15px 5px;
+        display: flex;
+    }
+
+    .hero-ban-position {
+        display: none;
+    }
+
+    .hero-ban-tab {
+        display: none;
+    }
+    .feature-navbar{
+        display: none;
+    }
+>>>>>>> Stashed changes
 
     .tablet-text {
         color: #1a1a1f;
         font-size: 18px;
         font-weight: 600;
+<<<<<<< Updated upstream
         margin: 0px 0px 0px 12px;
         padding-right: 10px;
     }
@@ -353,36 +531,84 @@ body{
     }
 
     .half {
+=======
+        margin: 0px 0px 0px -8px;
+        width: 40%;
+        /* gap: 4px; */
+        padding-left: 7px;
+    }
+
+    /* .half {
+>>>>>>> Stashed changes
         display: flex;
         align-items: center;
         padding-left: 50px;
-    }
+    } */
 
-    .search {
+    /* .search {
         padding: 1px 6px;
         padding-bottom: 5px;
         padding-left: 35px;
+<<<<<<< Updated upstream
+=======
+    } */
+
+    .icon {
+        padding: 9px;
+>>>>>>> Stashed changes
     }
 
     .dots {
         color: #1a1a1f;
         font-size: 13px;
-        padding: 15px 8px;
+        /* padding: 15px 8px; */
+        padding-top: 10px;
+        padding-right: 12px;
     }
+<<<<<<< Updated upstream
+=======
 
-    .in {
+    .sign {
+        color: #1f1f1a;
+        font-size: 14px;
+        padding: 17px 1px 23px 5px;
+        font-weight: 400;
+        white-space: nowrap;
+        letter-spacing: -0.03em;
+    }
+>>>>>>> Stashed changes
+
+    /* .in {
         color: #1a1a1f;
         font-size: 13px;
         padding: 20px 8px;
         text-align: right;
         white-space: nowrap;
-    }
+    } */
 
     .header {
         padding: 0;
+        width: 102%;
     }
+    .hero-banner{
+        width: 100%;
+        height: 100%;
+    }
+<<<<<<< Updated upstream
     
     .tabletbodyimg{
+=======
+
+    .bodyimage {
+        width: 100%;
+        margin-top: -4px;
+    }
+    .bodyimage img{
+        width: 102%;
+    }
+
+    .tabletbodyimg {
+>>>>>>> Stashed changes
         height: 70%;
         width: 50%;
         padding-top: 1px;
@@ -394,27 +620,55 @@ body{
         color: #000000;
         /* padding: 0px 4px; */
         background-color: #f7f7f7;
+<<<<<<< Updated upstream
     }
     .tabletpara h1{
+=======
+        padding-bottom: 25px;
+        margin-top: -4px;
+        width: 102%;
+    }
+
+    .bodytxt{
+>>>>>>> Stashed changes
         font-size: 32px;
         color: #0c1420;
         font-weight: 600;
-        width: 100%;
+        width: 102%;
         text-align: left;
         background-color: #f7f7f7;
+<<<<<<< Updated upstream
         padding-left: 50px;
         padding-top: 20px;
+=======
+        padding-left: 52px;
+        padding-top: 32px;
+        line-height: 2.5rem;
+>>>>>>> Stashed changes
     }
     .para2 p{
         background-color: #f7f7f7;
+<<<<<<< Updated upstream
+=======
+        margin-left: 2px;
+        width: 116%;
+>>>>>>> Stashed changes
     }
     .para2{
         color: #142034;
         font-size: 18px;
+<<<<<<< Updated upstream
         margin:  12px 0px 0px;
         text-align:left;
         background-color: #f7f7f7;
         padding-left: 50px;
+=======
+        margin: 11px 5px -2px;
+        text-align: left;
+        background-color: #f7f7f7;
+        padding-left: 40px;
+        width: 94%;
+>>>>>>> Stashed changes
         padding-right: 50px;
     }
     .tabletbtn{
@@ -422,6 +676,7 @@ body{
         flex-direction: row;
         background-color: #f7f7f7;
         padding-bottom: 70px;
+<<<<<<< Updated upstream
     }
 
     .btn2{
@@ -430,6 +685,13 @@ body{
         white-space: nowrap;
         background-color: #f7f7f7;
     }
+=======
+        gap: 8px;
+        padding-left: 47px;
+    }
+
+
+>>>>>>> Stashed changes
 
     .btn2 button{
         color: #FFFFFF;
@@ -438,6 +700,7 @@ body{
         font-size: 15px;
         font-weight: 600;
         background-color: #0078D4;
+<<<<<<< Updated upstream
         padding: 10px;
     }
     .btntxt2{
@@ -471,6 +734,28 @@ body{
     }
 
     .tabletfeature{
+=======
+        padding: 15px;
+        width: 15%;
+        white-space: nowrap;
+    }
+
+    .btn-tryAzure {
+        border-radius: 8px;
+        white-space: nowrap;
+        /* padding: 5px 4px;
+        padding-top: 36px; */
+        text-align: center;
+        background: transparent;
+        gap: 2px;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature {
+>>>>>>> Stashed changes
         text-align: left;
         color: #0067b8;
         font-size: 12px;
@@ -479,19 +764,513 @@ body{
         display: flex;
         /* justify-content: space-between; */
     }
+<<<<<<< Updated upstream
     .tabletarrow {
+=======
+
+    .arrow {
+>>>>>>> Stashed changes
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         padding-left: 10px;
         padding-top: 20px;
         width: 10%;
+<<<<<<< Updated upstream
       }
       .tabletdown{
+=======
+    }
+
+    .arrow-down {
+>>>>>>> Stashed changes
         border: solid black;
         border-width: 0 1px 1px 0;
         display: inline-block;
         padding: 4px;
+<<<<<<< Updated upstream
       }
+=======
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    header {
+        height: 55px;
+        width: 100%;
+    }
+
+    .tablet-text {
+        width: min-content;
+        padding-right: 11px;
+        margin: 9px;
+        padding-bottom: 1px;
+        margin-left: 4px;
+    }
+
+    .tablet-text p {
+        font-size: 16.3px;
+        letter-spacing: 0.8px;
+        margin-right: -6px;
+    }
+
+    .logo-nav-items {
+        display: flex;
+        align-items: center;
+        padding-left: 18px;
+        padding-bottom: 1px;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .image {
+        margin-inline: 0;
+        color: #1a1a1f;
+        font-size: 15px;
+        display: flex;
+        align-content: space-around;
+        padding-top: 1px;
+        padding-right: 1px;
+    }
+
+    .image img {
+        height: 25px;
+        width: 25px;
+        margin-left: 3px;
+    }
+
+    nav {
+        display: flex;
+        align-items: baseline;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+        color: #1a1a1f;
+        font-size: 13px;
+        padding-left: 5px;
+
+
+    }
+
+    .searchbar span {
+        background: transparent;
+    }
+
+
+    .desktop {
+        display: none;
+    }
+
+    .abouts {
+        display: none;
+    }
+
+    .start {
+        display: none;
+    }
+
+    .dots {
+        color: #1a1a1f;
+        font-size: 13px;
+        padding: 15px 7px;
+        display: flex;
+        margin-top: -1px;
+    }
+
+    .sign {
+        color: #1f1f1a;
+        font-size: 14px;
+        padding: 24px 8px 26px 8px;
+        font-weight: 400;
+        white-space: nowrap;
+        letter-spacing: -0.03em;
+        margin-left: -1px;
+        margin-top: 1px;
+    }
+
+    .bodyimage {
+        display: none;
+    }
+
+    .hero-ban-tab {
+        display: none;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .hero-ban-position {
+        display: block;
+        position: relative;
+        height: 559px;
+        
+        /* background-position: 50% 50%; */
+       
+    }
+
+    .hero-ban-position img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .hero-banner {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+    }
+    .bodytxt{
+        font-size: 40px;
+        color: #0c1420;
+        font-weight: 600;
+        width: 41%;
+        text-align: left;
+        padding-left: 58px;
+        background: transparent;
+        padding-top: 49px;
+        line-height: 2.5rem;
+        letter-spacing: -.05em;
+    }
+
+    .paragraph {
+        position: absolute;
+        top: 75px;
+        background: transparent;
+        padding-top: 36px;
+    }
+
+    /* .bodytxt {
+        background: transparent;
+    } */
+
+    /* .bodytxt h1 {
+        background: transparent;
+        font-size: 40px;
+        width: 44%;
+    } */
+
+    .para {
+        background: transparent;
+        width: 53%;
+        margin-top: 23px;
+    }
+
+    /* .para p {
+        background: transparent;
+        width: 135%;
+    } */
+
+    .btn-group {
+        background: transparent;
+        margin: 20px 0px 0px;
+    }
+    .btn-getStart {
+        color: #FFFFFF;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #0078D4;
+        padding: 15px;
+        width: 13%;
+        white-space: nowrap;
+    }
+    .btn-tryAzure {
+        border-radius: 7px;
+        background: transparent;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 17px;
+        width: 17%;
+        white-space: nowrap;
+    }
+    .feature{
+        display: none;
+    }
+
+    .feature-navbar{
+        padding-inline: 42px;
+        padding-block: 0px;
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .deskfeature{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        color: #0067b8;
+        font-size: 16px;
+    }
+    .startbtn{
+        white-space: nowrap;
+        display: flex;
+        text-align: right;
+        padding-right: 10px; 
+        padding-left: 88px;
+        padding-top: 20px;
+    }
+    .startbtn button{
+        padding: 9px 0px 10px;
+        font-size: 15px;
+        color: #000000;
+        text-align: center;
+        border: none;
+        width: 90px;
+        border-radius: 5px;
+        font-weight: 600;
+        background-color: #89c402;
+        margin-bottom: 8px;
+    }
+
+
+    @media screen and (min-width:1440px) {
+        .first {
+            display: none;
+        }
+
+        .image {
+            margin-inline: 0;
+            color: #1a1a1f;
+            font-size: 15px;
+            display: flex;
+            align-content: space-around;
+            height: 24px;
+            width: 24px;
+        }
+
+        .tablet-text p {
+            gap: 5px;
+            margin: 0px 0px 0px 17px;
+
+        }
+
+        .logo-nav-items {
+            padding-left: 13px;
+        }
+
+        nav {
+            display: flex;
+            align-items: baseline;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-around;
+            align-items: center;
+            color: #1a1a1f;
+            font-size: 13px;
+            padding-left: 11px;
+            margin-top: -1px;
+        }
+
+        .desktop {
+            display: none;
+        }
+
+        .abouts {
+            display: none;
+        }
+
+        .start {
+            display: none;
+        }
+
+        .dots {
+            display: none;
+        }
+
+        .icon {
+            display: none;
+        }
+
+        .searchbar {
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border-color: #747479;
+            color: #4c4c51;
+            border: 1px solid #747479;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            width: 120px;
+            height: 32px;
+            padding-left: 12px;
+            justify-content: space-between;
+            margin-right: 4px;
+        }
+
+        .searchbar input {
+            border: none;
+            outline: none;
+            background-color: #f8f9fa;
+            width: 45px;
+        }
+        .searchbar span{
+            padding-right: 5px;
+        }
+
+        .lists {
+            color: #1a1a1f;
+            font-size: 15px;
+            margin: 3px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            white-space: nowrap;
+            padding-left: 3px;
+        }
+
+        .lists p {
+            color: #1a1a1f;
+            font-size: 13px;
+            padding: 7px 9px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .lists button {
+            background-color: #89c402;
+            border: 1px solid #6f9e02;
+            border-radius: 4px;
+            color: #1a1a1f;
+            height: 40%;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 7px;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .sign {
+            color: #1f1f1a;
+            font-size: 14px;
+            padding: 24px 6px 25px 6px;
+            font-weight: 400;
+            white-space: nowrap;
+            letter-spacing: -0.03em;
+            margin-left: -1px;
+        }
+
+        /* .hero-ban-tab {
+            height: 70%;
+            width: 100%;
+            padding-top: 1px;
+        } */
+
+        .hero-ban-tab {
+            position: relative;
+            height: 248px;
+        }
+
+        .hero-ban-tab img {
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .hero-banner {
+            display: flex;
+            flex-direction: row;
+            /* background-color: transparent; */
+        }
+
+        .hero-ban-position{
+            height: 500px;
+        }
+        .hero-ban-position img{
+            height: 100%;
+            width: 100%;
+        }
+
+        .paragraph {
+            position: absolute;
+            top: 123px;
+            background: transparent;
+        }
+
+        .bodytxt{
+            background: transparent;
+            font-size: 48px;
+            margin-top: -41px;
+            margin-left: 4px;
+        }
+
+        .para{
+            background: transparent;
+            width: 52%;
+            font-size: 20px;
+            margin-left: 24px;
+            word-spacing: 2px;
+           
+        }
+        .btn-group {
+            background: transparent;
+            margin: 20px 0px 0px;
+            padding-left: 62px;
+        }
+
+        .btn-getStart {
+            color: #FFFFFF;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            background-color: #0078D4;
+            padding: 13px;
+            width: 9%;
+            white-space: nowrap;
+        }
+
+        .btn-tryAzure {
+            background: transparent;
+            border-radius: 7px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 15px 18px;
+            width: 12%;
+            white-space: nowrap;
+        }
+        .startbtn{
+            white-space: nowrap;
+            display: flex;
+            text-align: right;
+            padding-right: 12px; 
+            padding-left: 88px;
+            padding-top: 16px;
+        }
+        .startbtn button{
+            padding: 7px 0px 7px;
+            font-size: 15px;
+            color: #000000;
+            text-align: center;
+            border: none;
+            width: 90px;
+            border-radius: 5px;
+            font-weight: 600;
+            background-color: #89c402;
+            margin-bottom: 8px;
+        }
+
+
+
+
+    }
+
+
+>>>>>>> Stashed changes
 
 }
 @media screen and (min-width: 860px) {
