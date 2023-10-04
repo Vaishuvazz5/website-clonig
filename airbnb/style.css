@@ -19,9 +19,6 @@
     src: url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2);
 }
 
-
-
-
 .header {
     color: rgb(34, 34, 34);
     display: flex;
@@ -91,7 +88,7 @@ button img {
     margin-top: 22px;
     padding-block: 6px;
     border-radius: 40px;
-    margin-left: -13px;
+    margin-left: -15px;
     padding-left: 12px;
 }
 
@@ -343,8 +340,8 @@ button img {
 .hero-banner-mobile {
     border: 1px solid rgb(221, 221, 221);
     height: 64px;
-    width: 89%;
-    margin-block: 39px;
+    width: 87%;
+    margin-block: 34px;
     margin-inline: 23px;
     border-radius: 14px;
     display: flex;
@@ -386,12 +383,13 @@ button img {
 }
 
 .post-one img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
+    padding-top: 8px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -447,12 +445,12 @@ button img {
 }
 
 .post-two img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -506,14 +504,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
-
 .post-three {
     position: absolute;
     padding-inline: 22px;
@@ -521,12 +511,12 @@ button img {
 }
 
 .post-three img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -580,12 +570,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
 
 .post-four {
     position: absolute;
@@ -594,12 +578,12 @@ button img {
 }
 
 .post-four img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -653,12 +637,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
 
 .post-five {
     position: absolute;
@@ -667,12 +645,12 @@ button img {
 }
 
 .post-five img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -726,13 +704,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-six {
     position: absolute;
     padding-inline: 22px;
@@ -740,12 +711,12 @@ button img {
 }
 
 .post-six img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -799,13 +770,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 
 .post-seven {
     position: absolute;
@@ -814,12 +778,12 @@ button img {
 }
 
 .post-seven img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -873,13 +837,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-eight {
     position: absolute;
     padding-inline: 22px;
@@ -887,12 +844,12 @@ button img {
 }
 
 .post-eight img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -946,13 +903,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-nine {
     position: absolute;
     padding-inline: 22px;
@@ -960,12 +910,12 @@ button img {
 }
 
 .post-nine img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1019,13 +969,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-ten {
     position: absolute;
     padding-inline: 22px;
@@ -1033,12 +976,12 @@ button img {
 }
 
 .post-ten img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1092,13 +1035,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-eleven {
     position: absolute;
     padding-inline: 22px;
@@ -1106,12 +1042,12 @@ button img {
 }
 
 .post-eleven img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1165,13 +1101,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-twelve {
     position: absolute;
     padding-inline: 22px;
@@ -1179,12 +1108,12 @@ button img {
 }
 
 .post-twelve img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1238,13 +1167,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-thirteen {
     position: absolute;
     padding-inline: 22px;
@@ -1252,12 +1174,12 @@ button img {
 }
 
 .post-thirteen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1311,13 +1233,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-fourteen {
     position: absolute;
     padding-inline: 22px;
@@ -1325,12 +1240,12 @@ button img {
 }
 
 .post-fourteen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1384,13 +1299,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-fifteen {
     position: absolute;
     padding-inline: 22px;
@@ -1398,12 +1306,12 @@ button img {
 }
 
 .post-fifteen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1457,13 +1365,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-sixteen {
     position: absolute;
     padding-inline: 22px;
@@ -1471,12 +1372,12 @@ button img {
 }
 
 .post-sixteen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1530,13 +1431,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-seventeen {
     position: absolute;
     padding-inline: 22px;
@@ -1544,12 +1438,12 @@ button img {
 }
 
 .post-seventeen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1603,13 +1497,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-eighteen {
     position: absolute;
     padding-inline: 22px;
@@ -1617,12 +1504,12 @@ button img {
 }
 
 .post-eighteen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1676,13 +1563,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-nineteen {
     position: absolute;
     padding-inline: 22px;
@@ -1690,12 +1570,12 @@ button img {
 }
 
 .post-nineteen img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1749,13 +1629,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-twenty {
     position: absolute;
     padding-inline: 22px;
@@ -1763,12 +1636,12 @@ button img {
 }
 
 .post-twenty img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1822,13 +1695,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-twentyone {
     position: absolute;
     padding-inline: 22px;
@@ -1836,12 +1702,12 @@ button img {
 }
 
 .post-twentyone img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1895,13 +1761,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-twentytwo {
     position: absolute;
     padding-inline: 22px;
@@ -1909,12 +1768,12 @@ button img {
 }
 
 .post-twentytwo img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -1968,13 +1827,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-twentythree {
     position: absolute;
     padding-inline: 22px;
@@ -1982,12 +1834,12 @@ button img {
 }
 
 .post-twentythree img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -2041,12 +1893,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
 
 .post-twentyfour {
     position: absolute;
@@ -2055,12 +1901,12 @@ button img {
 }
 
 .post-twentyfour img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     padding-top: 62px;
     display: flex;
@@ -2114,13 +1960,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
-
 .post-twentyfive {
     position: absolute;
     padding-inline: 22px;
@@ -2128,12 +1967,12 @@ button img {
 }
 
 .post-twentyfive img {
-    width: 100%;
+    width: 325px;
     height: 310px;
     border-radius: 14px;
 }
 
-.icon-love {
+.icon-wishlist {
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -2186,12 +2025,6 @@ button img {
     justify-content: space-between;
 }
 
-.star-contents {
-    color: rgb(34, 34, 34);
-    display: flex;
-    font-size: 14px;
-    justify-content: flex-end;
-}
 
 .footer-section {
     box-sizing: border-box;
@@ -2210,7 +2043,7 @@ button img {
 .footer-scroll {
     display: flex;
     overflow: scroll;
-    position: relative;
+    /* position: relative; */
     padding-top: 24px;
     gap: 29px;
     white-space: nowrap;
@@ -2241,6 +2074,7 @@ button img {
 
 .footer-room-contents {
     padding-top: 35px;
+    padding-left: 18px;
 }
 
 .room-content-type {
@@ -2275,7 +2109,7 @@ button img {
 
 .support-page {
     padding-top: 60px;
-    padding-left: 20px;
+    padding-left: 36px;
     display: grid;
     gap: 12px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -2294,7 +2128,7 @@ button img {
 
 .hosting-page {
     padding-top: 43px;
-    padding-left: 20px;
+    padding-left: 36px;
     display: grid;
     gap: 7px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -2313,7 +2147,7 @@ button img {
 
 .airbnb-home {
     padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 28px;
     display: grid;
     gap: 7px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -2335,12 +2169,32 @@ button img {
     font-size: 14px;
     font-weight: 600;
     padding-left: 14px;
-    padding-block: 23px;
+    padding-block: 17px;
     gap: 12px;
+}
+.footer-last-session{
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+.media-access{
+    display: flex;
+    gap: 8px;
+    padding-left: 10px;
+}
+.media-access img{
+    padding-left: 2px;
+    padding-top: 4px;
 }
 
 .terms-conditions {
-    padding-left: 14px;
+    padding-left: 25px;
+    padding-top: 13px;
+}
+.media-icons{
+    display: none;
+}
+.privacy-details{
+    padding-top: 3px;
 }
 
 
@@ -2369,6 +2223,11 @@ button img {
 
     .tablet-lists {
         display: flex;
+    }
+    .media-icons{
+        display: flex;
+        gap: 15px;
+        padding-left: 24px;
     }
 
     .tablet-emblem {
@@ -2450,14 +2309,14 @@ button img {
     .icon-emblems {
         border: 1px solid rgb(221, 221, 221);
         display: flex;
-        margin-block: 21px;
+        margin-block: 31px;
         border-radius: 21px;
-        /* margin-left: 33px; */
-        padding-inline: 8px;
+        margin-left: 4px;
+        padding-inline: 9px;
         gap: 8px;
-        margin-top: 34px;
+        margin-top: 20px;
+        width: 31%;
     }
-
 
     .tablet-lists {
         display: flex;
@@ -2475,11 +2334,13 @@ button img {
 
     .hero-banner-mobile {
         margin-block: 29px;
-        margin-inline: 43px;
+        margin-inline: -151px;
+        width: 174%;
     }
 
     .list-items {
         display: flex;
+        margin-left: 22px;
     }
 
     .image-three-beach img {
@@ -2580,13 +2441,216 @@ button img {
         border: 1px solid black;
         border-radius: 13px;
     }
-    .post-one{
+
+    .post-one {
         padding-inline: 40px;
     }
 
     .post-one img {
-        width: 60%;
+        width: 332px;
+        height: 315px;
     }
+    .image-one-contents{
+        padding-left: 43px;
+    }
+  
+    .post-two img {
+        width: 322px;
+        height: 315px;
+        margin-top: -37px;
+        margin-left: -11px;
+    }
+    .image-two-contents{
+        padding-top: 233px;
+    }
+    .post-three{
+        padding-inline: 40px;
+    }
+    .post-three img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-three-contents{
+        padding-left: 43px;
+    }
+    .post-four img{
+        width: 322px;
+        height: 315px;
+        margin-left: -11px;
+    }
+    .post-five{
+        padding-inline: 40px;
+    }
+    .post-five  img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-five-contents{
+        padding-left: 43px;
+    }
+    .post-six img{
+        width: 322px;
+        height: 315px;
+        margin-left: -11px;
+    }
+    .post-seven{
+        padding-inline: 40px;
+    }
+    .post-seven img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-seven-contents{
+        padding-left: 43px;
+    }
+    .post-eight{
+        margin-left: 169px;
+    }
+    .image-eight-contents{
+        margin-left: 174px;
+    }
+    .post-eight img{
+        width: 322px;
+        height: 315px;
+        margin-left: 12px;
+    }
+    .post-nine{
+        padding-inline: 40px;
+    }
+    .post-nine img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-nine-contents{
+        margin-left: 43px;
+    }
+    .post-ten img{
+        width: 322px;
+        height: 315px;
+        margin-left: -11px;
+    }
+    .post-eleven{
+        padding-inline: 40px;
+    }
+    .post-eleven img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-eleven-contents{
+        margin-left: 43px;
+    }
+    .post-twelve img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-thirteen{
+        padding-inline: 40px;
+    }
+    .post-thirteen img {
+        width: 332px;
+        height: 315px;
+    }
+    .image-thirteen-contents{
+        margin-left: 43px;
+    }
+    .post-fourteen img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-fifteen{
+        padding-inline: 40px;
+    }
+    .post-fifteen img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-fifteen-contents{
+        margin-left: 43px;
+    }
+    .post-sixteen img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-seventeen{
+        padding-inline: 40px;
+    }
+    .post-seventeen img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-seventeen-contents{
+        margin-left: 43px;
+    }
+    .post-eighteen img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-nineteen{
+        padding-inline: 40px;
+    }
+    .post-nineteen img{
+        width: 332px;
+        height: 315px;
+    }
+    .image-nineteen-contents{
+        margin-left: 43px;
+    }
+    .post-twenty img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-twentyone{
+        padding-inline: 40px;
+    }
+    .post-twentyone img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .image-twentyone-contents{
+        margin-left: 43px;
+    }
+    .post-twentytwo img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-twentythree{
+        padding-inline: 40px;
+    }
+    .post-twentythree img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .image-twentythree-contents{
+        margin-left: 43px;
+    }
+    .post-twentyfour img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .post-twentyfive{
+        padding-inline: 40px;
+    }
+    .post-twentyfive img{
+        width: 332px;
+        height: 315px;
+        margin-left: -14px;
+    }
+    .image-twentyfive-contents{
+        margin-left: 43px;
+    }
+
+
+
+    
 
     .tick {
         width: 67%;
@@ -2596,16 +2660,30 @@ button img {
         width: 5%;
     }
 
-    .main-body-section{
+    .main-body-section {
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
-    .hero-banner-mobile{
+    .hero-banner-mobile {
         grid-column: 2/4;
     }
-    .hero-banner-image{
+
+    .hero-banner-image {
         grid-column: span 2;
     }
+    .footer-last-session{
+        display: grid;
+        justify-content: center;
+        padding-bottom: 23px;
+    }
+    .terms-conditions p{
+        padding-left: 61px;
+    }
+    .media-access{
+        display: flex;
+        gap: 16px;
+    }
 
-}  
+
+}
