@@ -6,24 +6,23 @@
 
 @font-face {
     font-family: font;
-    src: url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
+    src: url('assets/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2');
 }
 
 @font-face {
     font-family: font1;
-    src: url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2);
+    src: url('https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2');
 }
 
 @font-face {
     font-family: font2;
-    src: url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2);
+    src: url('assets/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2');
 }
 
 .header {
     color: rgb(34, 34, 34);
     display: flex;
 }
-
 .fixed-button {
     display: flex;
     position: fixed;
@@ -31,7 +30,6 @@
     left: -20px;
     width: 34%;
 }
-
 .fixed-button button {
     border: none;
     display: flex;
@@ -52,7 +50,6 @@
     padding-top: 18px;
     background-color: rgb(34, 34, 34);
 }
-
 .fixed-button button p {
     color: rgb(255, 255, 255);
     border: none;
@@ -63,7 +60,7 @@
     margin-top: -1px;
     margin-left: -8px;
 }
-.nav-bar{
+.nav-bar {
     display: flex;
     position: fixed;
     justify-content: center;
@@ -78,15 +75,15 @@
     margin-top: -12px;
     padding-left: 0px;
 }
-.search-icon-bar{
+.search-icon-bar {
     padding-left: 2px;
     padding-right: 2px;
 }
-.search-icon-bar img{
+.search-icon-bar img {
     padding-left: 6px;
     margin-top: -1px;
 }
-.nav-bar p{
+.nav-bar p {
     color: rgb(113, 113, 113);
     font-size: 11px;
     text-align: center;
@@ -94,52 +91,48 @@
     margin-top: -2px;
     margin-left: 2px;
 }
-.icon-wishlist-bar{
+.icon-wishlist-bar {
     padding-left: 2px;
     padding-right: 2px;
 }
-.icon-wishlist-bar img{
+.icon-wishlist-bar img {
     padding-left: 7px;
     margin-top: -1px;
 }
-.logo-icon-bar{
+.logo-icon-bar {
     padding-left: 2px;
     padding-right: 2px;
 }
-.logo-icon-bar img{
+.logo-icon-bar img {
     padding-left: 3px;
     margin-top: -1px;
 }
+
 .tablet-header-controls {
     display: none;
 }
-
 .tablet-header {
     display: none;
 }
-
 .tablet-lists {
     display: none;
 }
-
 .emblem-icon-desktop {
     display: none;
 }
-
 .header-contents {
     display: flex;
 }
-.container-position-class{
+.container-position-class {
     position: fixed;
     width: 100%;
     z-index: 100;
     background: #fff;
     top: 0;
 }
-.tax-container-cards{
+.tax-container-cards {
     margin-top: 145px;
 }
-
 button {
     background-color: white;
     display: flex;
@@ -152,29 +145,28 @@ button {
     width: 73%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px 0px;
 }
-
 button img {
     padding-left: 16px;
     margin-top: -2px;
     margin-left: 4px;
 }
-
 .header-main {
     display: flex;
     flex-direction: column;
     padding-top: 2px;
 }
-
 .header-heading {
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-    padding-right: 43px;
+    padding-right: 45px;
+    font-family: font2;
+    letter-spacing: 0.28px;
 }
-
 .header-text {
     display: flex;
-    padding-left: 19px;
+    padding-left: 18px;
+    font-family: font2;
     padding-bottom: 4px;
     color: rgb(113, 113, 113);
     font-size: 12px;
@@ -182,7 +174,6 @@ button img {
     font-weight: 400;
     gap: 6px;
 }
-
 .header-symbol {
     display: flex;
     box-sizing: border-box;
@@ -195,16 +186,14 @@ button img {
     margin-left: -13px;
     padding-left: 12px;
 }
-
 .header-symbol img {
     width: 59%;
 }
-
 .header-image-lists {
     display: flex;
     overflow: scroll;
     border-bottom: 1px solid #EBEBEB;
-    padding: 0px 28px;
+    padding: 0px 27px;
     margin-top: 4px;
     /* padding-top: 8px;
     padding-left: 11px; */
@@ -212,11 +201,9 @@ button img {
     box-shadow: 1px 3px 6px 1px #f7f7f7;
     /* padding-bottom: 19px; */
 }
-
 .header-image-lists::-webkit-scrollbar {
     display: none;
 }
-
 .image-logo-container {
     display: grid;
     /* padding-left: 29px;
@@ -225,20 +212,18 @@ button img {
     padding-top: 12px;
     border-bottom: 2px solid black;
 }
-
 .image-logo-container img {
     height: 24px;
 }
-
 .image-logo-container span {
     color: rgb(0, 0, 0);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    padding-top: 3px;
-    /* padding-top: 4px;
-    margin-left: -5px; */
+    padding-top: 0px;
+    margin-left: -3px;
+    font-family: font2;
+    letter-spacing: 0.8px;
 }
-
 .image-logo-mobile {
     display: grid;
     margin-bottom: 10px;
@@ -249,13 +234,11 @@ button img {
     /* padding-left: 29px;
     padding-top: 16px; */
 }
-
 .image-logo-mobile img {
     height: 24px;
     margin-left: 18px;
     color: rgb(113, 113, 113);
 }
-
 .image-logo-mobile span {
     font-size: 12px;
     color: rgb(113, 113, 113);
@@ -266,7 +249,6 @@ button img {
     font-family: font2;
     white-space: nowrap;
 }
-
 .tax-container-cards {
     display: grid;
     column-gap: 24px;
@@ -274,25 +256,20 @@ button img {
     padding: 0px 24px;
     margin-top: 169px;
 }
-
 .main-body-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 32px;
 }
-
 .footer-room-contents-desktop {
     display: none;
 }
-
 .tablet-header {
     display: none;
 }
-
 .tablet-lists {
     display: none;
 }
-
 .tax-controller {
     border: 1px solid rgb(221, 221, 221);
     height: 65px;
@@ -306,24 +283,21 @@ button img {
     flex-direction: column;
     margin-top: -1px;
 }
-
-
 .display-tax-text {
     display: flex;
     justify-content: space-between;
     padding-top: 19px;
     padding-inline: 21px;
 }
-
 .display-tax-text span {
     color: rgb(34, 34, 34);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
-    padding-top: 5px;
-    letter-spacing: 0.28px;
+    padding-top: 4px;
+    letter-spacing: 0.18px;
     margin-left: -5px;
+    font-family: font2;
 }
-
 .icon-bar-tick {
     border-left: 16px solid black;
     border-radius: 26px;
@@ -333,7 +307,6 @@ button img {
     margin-top: -4px;
     margin-right: -5px;
 }
-
 .tick-bar {
     border: 2px solid black;
     border-radius: 23px;
@@ -342,17 +315,16 @@ button img {
     width: 100%;
     background: white;
 }
-.tick-bar img{
+.tick-bar img {
     padding-bottom: 2px;
     padding-left: 2px;
 }
-
 .post-card {
     position: relative;
 }
 .post-card-image img {
     width: 87vw;
-    height: 82vw;
+    height: 83vw;
     border-radius: 11px;
     margin-top: -3px;
 }
@@ -361,30 +333,89 @@ button img {
     top: 12px;
     right: 16px;
 }
-.card-blog{
+.card-blog {
     position: absolute;
-    bottom: 52px;
-    left: 32px;
+    bottom: 25px;
+    left: 12px;
     display: flex;
+    box-sizing: border-box;
+    pointer-events: auto;
 }
-.blog-item{
+.blog-item {
     background: white;
-    width: 54px;
-    height: 51px;
+    width: 64px;
+    height: 72px;
     display: flex;
-    border-radius: 6px;
+    border-left: 2px ridge #fff8f6;
+    border-radius: 2px 8px 8px 2px;
+    padding-left: 5px;
+    padding-top: 12px;
+    background-image: linear-gradient(-90deg, rgb(237, 237, 237) 0%, rgb(233, 233, 233) 100%);
 }
-.image-blog-item{
+.image-blog-item {
     width: 100%;
     height: 100%;
 }
-.blog-item img{
+.blog-item img {
     box-sizing: border-box;
-    width: 46px;
-    height: 42px;
+    width: 47px;
+    height: 45px;
     border-radius: 48px;
     padding-top: 3px;
-    padding-left: 4px;
+    padding-left: 5px;
+}
+.indicator-dots {
+    position: absolute;
+    bottom: 17px;
+    left: 138px;
+}
+.image-blog-dots {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+.extra-dots {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+}
+.second-dot {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background-color: #dddddd;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-left: 4px;
+    border: none;
+}
+.third-dot {
+    box-sizing: border-box;
+    background-color: #dddddd;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.fourth-dot {
+    box-sizing: border-box;
+    background-color: #dddddd;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.last-dot {
+    box-sizing: border-box;
+    background-color: #dddddd;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-bottom: 1px;
 }
 .card-contents {
     display: grid;
@@ -399,12 +430,15 @@ button img {
     font-weight: 600;
     line-height: 19px;
     color: rgb(34, 34, 34);
+    font-family: font2;
+    letter-spacing: 0.48px;
 }
 .card-contents p {
     color: rgb(113, 113, 113);
-    font-size: 16px;
+    font-size: 15px;
     line-height: 19px;
     letter-spacing: 0.48px;
+    font-family: font2;
 }
 .prize-contents {
     color: rgb(34, 34, 34);
@@ -413,18 +447,15 @@ button img {
     text-decoration: underline;
     /* display: flex; */
 }
-
 .prize-tag {
     color: rgb(34, 34, 34);
     font-size: 15px;
     font-weight: 600;
 }
-
 .prize-tag-tax {
     font-weight: 400;
     font-size: 16px;
 }
-
 .card-container-element {
     padding-bottom: 23px;
 }
@@ -436,7 +467,6 @@ button img {
     text-align: center;
     margin-top: 33px;
 }
-
 .show-more {
     box-sizing: border-box;
     display: flex;
@@ -448,27 +478,21 @@ button img {
     margin-right: auto;
     background-color: rgb(34, 34, 34);
     margin-top: 14px;
-
 }
-
 .show-more p {
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 16px;
 }
-
-
 .footer-section {
     box-sizing: border-box;
     line-height: 20.02px;
     background-color: #f7f7f7;
 }
-
 /* .footer-heading-container {
     padding-block: 21px;
     padding-inline: 24px;
 } */
-
 .footer-heading h2 {
     color: rgb(34, 34, 34);
     font-size: 22px;
@@ -477,13 +501,11 @@ button img {
     margin: 0px 0px 8px;
     /* padding-left: 30px; */
 }
-
 .footer-heading-container {
     padding-block: 48px;
     padding-inline: 24px;
     border-bottom: 1px solid rgb(221, 221, 221);
 }
-
 .footer-scroll {
     display: flex;
     overflow: scroll;
@@ -494,11 +516,9 @@ button img {
     /* padding-left: 30px; */
     border-bottom: 1px solid rgb(221, 221, 221);
 }
-
 .footer-scroll::-webkit-scrollbar {
     display: none;
 }
-
 /* .mobile-footer-begins {
     padding-top: 46px;
     margin-inline: -24px;
@@ -510,7 +530,6 @@ button img {
     width: 23px;
     right: 0px;
 }
-
 .popular {
     border-bottom: 2px solid rgb(34, 34, 34);
     padding-inline: 10px;
@@ -523,12 +542,10 @@ button img {
     font-weight: 600;
     line-height: 18px;
 }
-
 .footer-room-contents {
     padding-top: 32px;
     /* padding-left: 18px; */
 }
-
 .room-content-type {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -536,29 +553,23 @@ button img {
     row-gap: 24px;
     /* padding-left: 22px; */
     padding-bottom: 30px;
-
 }
-
 .footer-type-one {
     display: grid;
     grid-column: span 1;
 }
-
 .footer-type-two {
     grid-column: span 1;
 }
-
 .room-content-type a {
     color: rgb(34, 34, 34);
     font-size: 15px;
     font-weight: 600;
 }
-
 .room-content-type p {
     color: rgb(113, 113, 113);
     font-size: 15px;
 }
-
 .scroll-items-footer {
     display: flex;
     gap: 33px;
@@ -569,16 +580,14 @@ button img {
     padding-block: 10px;
     padding-inline: 10px;
 }
-
 .main-footer {
     padding-inline: 24px;
 }
-
 .support-contents {
     display: grid;
     row-gap: 12px;
+    font-family: font2;
 }
-
 .support-page {
     /* padding-left: 22px; */
     /* padding-block: 7px; */
@@ -587,38 +596,42 @@ button img {
     border-bottom: 1px solid rgb(221, 221, 221);
     padding: 25px 0px;
 }
-
 .support-page h3 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     /* margin-block: 12px;
     margin-bottom: 12px; */
     margin: 0px 0px 0px;
+    font-family: font2;
+    line-height: 18px;
+    letter-spacing: 0.18px;
 }
-
 .support-contents p {
     /* padding-block: 6px; */
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
 }
 .hosting-contents {
     display: grid;
     row-gap: 12px;
+    font-family: font2;
 }
 .hosting-page {
-    padding-block: 21px;
+    padding-block: 24px;
     display: grid;
     gap: 7px;
     border-bottom: 1px solid rgb(221, 221, 221);
 }
 .hosting-page h3 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     margin: 0px 0px 4px;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.18px;
+    font-family: font2;
+    line-height: 18px;
 }
 .hosting-contents p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
 }
 .airbnb-home {
@@ -629,19 +642,21 @@ button img {
 .airbnb-home-contents {
     display: grid;
     row-gap: 12px;
+    font-family: font2;
 }
 .airbnb-home h3 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     margin-bottom: 12px;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.18px;
     padding-top: 1px;
+    font-family: font2;
+    line-height: 18px;
 }
 .airbnb-home-contents p {
     /* padding-block: 4px; */
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.48px;
 }
 .currency-footer {
     display: flex;
@@ -663,8 +678,8 @@ button img {
 .media-access img {
     margin-top: 2px;
 }
-.media-access span{
-    font-family: font;
+.media-access span {
+    font-family: font2;
     letter-spacing: 0.32px;
     margin-top: 2px;
 }
@@ -690,47 +705,38 @@ button img {
     header {
         display: none;
     }
-    .nav-bar{
+    .nav-bar {
         display: none;
     }
-
     .header-image-lists {
         display: none;
     }
-
     .header-image-lists {
         display: none;
     }
-
     .star-contents {
         display: none;
     }
-
     .footer-room-contents {
         display: none;
     }
-
     .emblem-icon-desktop {
         display: none;
     }
-
     .tablet-header {
         display: flex;
         height: 80px;
     }
-
     .tablet-header-controls {
         display: none;
     }
-
     .footer-room-contents-tablet {
         display: grid;
     }
-
     .footer-room-contents-desktop {
         display: none;
     }
-    .container-position-tablet-class{
+    .container-position-tablet-class {
         position: fixed;
         z-index: 100;
         background: #fff;
@@ -765,7 +771,6 @@ button img {
         border: 1px solid #dddd;
         height: 48px;
     }
-
     .mobile-header-controls p {
         color: rgb(34, 34, 34);
         font-size: 14px;
@@ -799,7 +804,6 @@ button img {
         display: flex;
         padding-left: 8px;
     }
-
     .icon-text {
         display: flex;
         align-items: center;
@@ -807,11 +811,13 @@ button img {
     }
     .icon-text span {
         color: rgb(34, 34, 34);
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         white-space: nowrap;
-        padding-left: 16px;
-        padding-top: 4px;
+        padding-left: 17px;
+        padding-top: 2px;
+        font-family: 'font2';
+        letter-spacing: 0.18px;
     }
     .icon-text img {
         padding-left: 24px;
@@ -822,12 +828,24 @@ button img {
         display: flex;
         border-radius: 21px;
         gap: 7px;
-        margin-top: 19px;
+        margin-top: 17px;
+        padding: 5px 5px 5px 12px;
+        margin-left: 20px;
         /* width: 35%; */
-        padding: 10px 12px 14px;
-        margin-left: 23px;
-        margin-bottom: 22px;
+        /* padding: 10px 12px 14px;
+        margin-left: 16px; */
+        /* margin-bottom: 22px; */
         height: 43px;
+    }
+    .icon-dash-symbol img {
+        width: 17px;
+        height: 17px;
+        margin-top: 7px;
+    }
+    .icon-contact-symbol img {
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
     }
     .tablet-lists {
         display: flex;
@@ -837,59 +855,58 @@ button img {
         display: flex;
         overflow: scroll;
         /* flex-basis: 44%; */
-        /* padding-left: 13px; */
         gap: 26px;
+        margin-left: -10px;
         padding-top: 9px;
     }
-
     .tablet-list-items::-webkit-scrollbar {
         display: none;
     }
-
     /* .tax-controller {
         margin-block: 29px;
         margin-inline: -154px;
         width: 174%;
     } */
-
     .list-items {
         display: flex;
         padding: 0px 40px;
         padding-top: 29px;
+        /* padding-top: 9px; */
     }
-
     .image-logo-tablet-container {
         padding-left: 15px;
         border-bottom: 2px solid black;
     }
-
     .image-logo-tablet-container img {
         margin-left: 5px;
         width: 24px;
         height: 24px;
     }
-
     .image-logo-tablet-container span {
         padding-top: 7px;
         margin-left: -6px;
+        font-size: 12px;
+        font-family: font2;
+        font-weight: 600;
+        letter-spacing: 1.48px;
     }
-
     .image-logo-tablet {
         padding-left: 15px;
     }
-
     .image-logo-tablet img {
         margin-left: 5px;
         width: 24px;
         height: 24px;
         color: rgb(113, 113, 113);
     }
-
     .image-logo-tablet span {
         padding-top: 7px;
         margin-left: -6px;
         white-space: nowrap;
         color: rgb(113, 113, 113);
+        font-size: 12px;
+        font-family: font2;
+        font-weight: 600;
     }
     .arrow-bar {
         border: 1px solid rgba(0, 0, 0, 0.3);
@@ -899,17 +916,17 @@ button img {
         padding-top: 6px;
         padding-left: 8px;
         margin-top: 16px;
-        margin-right: 16px;
+        margin-right: 21px;
     }
-
     .arrow-bar img {
         padding-right: 7px;
     }
-
     .filters {
         border: 1px solid rgb(221, 221, 221);
-        font-size: 14px;
-        width: 28%;
+        font-size: 12px;
+        font-family: font2;
+        font-weight: 600;
+        width: 34%;
         height: 47px;
         margin-top: 6px;
         border-radius: 10px;
@@ -937,32 +954,29 @@ button img {
         column-gap: 8px;
         row-gap: 8px;
     }
-
     .display-tax-text span {
         color: rgb(34, 34, 34);
         font-size: 15px;
         font-weight: 600;
-        padding-top: 7px;
-        margin-left: 1px;
+        padding-top: 4px;
+        margin-left: 0px;
+        font-family: font2;
     }
-
     .icon-bar-tick {
         border-left: 16px solid black;
         border-radius: 26px;
         width: 7%;
         position: relative;
         background: black;
+        margin-right: 1px;
     }
-    
     .tick-bar {
         border: 2px solid black;
         border-radius: 23px;
-        padding-left: 4px;  .icon-bar-tick {
-            border: 1px solid black;
-            border-radius: 13px;
-        }
-    
-        padding-top: 2px;
+        padding-left: 4px;
+        /* .icon-bar-tick border: 1px solid black; */
+        border-radius: 13px;
+        padding-top: 7px;
         background: white;
     }
     .post-card-image {
@@ -975,6 +989,7 @@ button img {
         height: 42vw; */
         width: 100%;
         height: 100%;
+        margin-top: 0px;
     }
     .card-contents {
         padding-left: 0px;
@@ -982,8 +997,12 @@ button img {
     }
     .wishlist-icon {
         position: absolute;
-        top: 16px;
+        top: 15px;
         left: 292px;
+    }
+    .card-blog {
+        bottom: 13px;
+        left: 13px;
     }
     .fixed-button button {
         top: 903px;
@@ -1019,7 +1038,6 @@ button img {
     /* .tax-controller {
         grid-column: 2/4;
     } */
-
     .hero-banner-cards {
         grid-column: span 2;
     }
@@ -1033,7 +1051,7 @@ button img {
     .footer-room-contents-tablet {
         padding-top: 32px;
     }
-    .footer-container-items{
+    .footer-container-items {
         border-bottom: 1px solid rgb(221, 221, 221);
     }
     .room-content-type-tablet {
@@ -1061,6 +1079,7 @@ button img {
     .footer-type-two {
         grid-column: span 1;
     }
+
     .room-content-type-tablet a {
         color: rgb(34, 34, 34);
         font-size: 15px;
@@ -1074,42 +1093,37 @@ button img {
         gap: 30px;
         position: relative;
     }
-
     .footer-scroll img {
         position: absolute;
     }
-
     .scroll-items-footer {
         color: rgb(113, 113, 113);
         display: flex;
         gap: 19px;
     }
-
     .support-page {
         padding-block: 24px;
         line-height: 20.02px;
     }
-    .support-contents p{
-        letter-spacing: 0.28px;
+    .support-contents p {
+        /* letter-spacing: 0.28px; */
     }
-
     .hosting-page {
         /* padding-bottom: 28px;
         padding-left: 38px; */
         line-height: 20.02px;
     }
-    .hosting-contents p{
-        letter-spacing: 0.28px;
+    .hosting-contents p {
+        /* letter-spacing: 0.28px; */
     }
-
     .airbnb-home {
         /* padding-left: 37px;
         padding-block: 5px; */
-        padding-block: 23px;
+        padding-block: 21px;
         line-height: 20.02px;
     }
-    .airbnb-home-contents p{
-        letter-spacing: 0.49px;
+    .airbnb-home-contents p {
+        /* letter-spacing: 0.49px; */
     }
     .footer-last-session {
         display: grid;
@@ -1120,7 +1134,8 @@ button img {
     .privacy-details {
         display: flex;
         gap: 8px;
-        letter-spacing: 0.23px;
+        font-size: 14px;
+        font-family: font2;
     }
     .terms-conditions p {
         padding-left: 92px;
@@ -1129,14 +1144,15 @@ button img {
     .currency-footer {
         /* padding-left: 19px; */
         margin-bottom: 0px;
-        margin-left: 5px;
+        margin-left: 9px;
     }
-    .media-access img{
+    .media-access img {
         margin-right: -8px;
     }
     .media-access {
         display: flex;
         gap: 16px;
+        font-family: font2;
     }
 
 }
@@ -1146,29 +1162,24 @@ button img {
     .emblem-icon {
         flex: 1 0 140px;
     }
-
     .scroll-items-footer img {
         display: none;
     }
-
     .emblem-icon-desktop {
         display: none;
     }
-
     .footer-room-contents-desktop {
         display: none;
     }
-
     .tablet-emblem {
         display: flex;
         justify-content: space-between;
     }
-
     .mobile-header-controls {
         display: none;
     }
     .tablet-emblem button {
-        border: 1px solid #DDDDDD; 
+        border: 1px solid #DDDDDD;
         width: 37%;
         box-sizing: border-box;
         text-align: center;
@@ -1177,9 +1188,12 @@ button img {
         padding-top: 6px;
         margin-right: 39px;
     }
-    .icon-emblems{
-        padding: 10px 12px 11px;
+    .icon-emblems {
+        /* padding: 10px 12px 11px;
+        margin-left: 0px; */
+        padding: 5px 10px;
         margin-left: 0px;
+        width: 73px;
     }
     .tablet-header-controls {
         display: flex;
@@ -1197,7 +1211,7 @@ button img {
         color: rgb(34, 34, 34);
         font-size: 14px;
         font-weight: 600;
-        border-right: 1px solid rgba(0,0,0,0.12);
+        border-right: 1px solid rgba(0, 0, 0, 0.12);
         height: 26px;
         padding: 2px 12px;
         white-space: nowrap;
@@ -1210,7 +1224,11 @@ button img {
     .add-guest p {
         color: rgb(113, 113, 113);
         border: none;
-        padding: 2px 13px;
+        font-family: font2;
+        font-weight: 400;
+        padding-right: 15px;
+        padding-top: 1px;
+        /* padding: 2px 13px; */
     }
     .add-guest img {
         background-color: rgb(255, 56, 92);
@@ -1218,20 +1236,24 @@ button img {
         padding-block: 9px;
         padding-inline: 10px;
         margin-left: auto;
-        margin-right: -2px;
+        margin-right: -1px;
         margin-top: -6px;
     }
     .arrow-bar {
         width: 3%;
     }
-    .icon-text img{
+    .icon-text img {
         padding-right: 20px;
     }
-    .image-logo-tablet-container{
+    .image-logo-tablet-container {
         padding-left: 6px;
     }
+    .image-logo-tablet span {
+        font-size: 12px;
+        font-family: font2;
+    }
     .filters {
-        width: 15%;
+        width: 20%;
         padding-left: 19px;
         padding-top: 14px;
         margin-top: 5px;
@@ -1248,29 +1270,30 @@ button img {
     .icon-text span {
         padding-left: 1px;
     }
-
     .tablet-list-items {
         gap: 35px;
+        margin-left: 0px;
     }
-
     .tax-controller {
         /* margin-inline: -303px;
         width: 178%;
         grid-column: 3/6; */
         width: 100%;
     }
-
     .tax-container-cards {
         padding-inline: 40px;
     }
-
     .display-tax-text span {
-        padding-top: 6px;
-        padding-left: 0px;
-        letter-spacing: 0.58px;
+        padding-top: 3px;
+        margin-left: -1px;
+        font-family: font2;
     }
-    .icon-bar-tick{
+    .icon-bar-tick {
         width: 5%;
+        margin-right: 2px;
+    }
+    .tick-bar {
+        padding-top: 7px;
     }
     .main-body-section {
         display: grid;
@@ -1288,8 +1311,11 @@ button img {
     }
     .wishlist-icon {
         position: absolute;
-        top: 16px;
+        top: 15px;
         left: 259px;
+    }
+    .card-blog {
+        bottom: 16px;
     }
     .fixed-button button {
         top: 904px;
@@ -1316,9 +1342,12 @@ button img {
     .scroll-items-footer {
         gap: 23px;
     }
-    .footer-container-items{
+    .popular {
+        height: 40px;
+    }
+    .footer-container-items {
         border-bottom: 1px solid rgb(221, 221, 221);
-        padding-block: 40px;
+        padding-block: 48px;
     }
     .support-page {
         padding-block: 44px;
@@ -1332,7 +1361,6 @@ button img {
     /* .hosting-page h3{
         margin-block: 12px;
     } */
-
     .airbnb-home {
         padding-block: 44px;
     }
@@ -1340,14 +1368,36 @@ button img {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .room-content-type-tablet a {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'font2';
+    }
+    .room-content-type-tablet p{
+        font-family: font2;
+    }
     .support-page h3 {
         margin: 0px 0px 1px;
     }
     .hosting-page h3 {
-        margin: 0px 0px -21px;
+        margin: 1px 2px -21px;
+    }
+    .hosting-contents {
+        row-gap: 8px;
+        margin-bottom: 25px;
+        padding-left: 2px;
     }
     .airbnb-home h3 {
         margin-bottom: -21px;
+        padding-left: 5px;
+    }
+    .airbnb-home-contents {
+        row-gap: 7px;
+        padding-bottom: 23px;
+        padding-left: 5px;
+    }
+    .currency-footer {
+        margin-left: 9px;
     }
 
 }
@@ -1381,17 +1431,18 @@ button img {
         padding: 0px 80px;
     }
     .tablet-emblem button {
-        width: 29%;
-        margin-left: auto;
+        width: 27%;
+        /* margin-left: auto; */
         margin-right: auto;
         box-sizing: border-box;
         text-align: center;
         padding: 0px 10px;
         height: 48px;
         padding-top: 6px;
+        margin-left: 186px;
     }
     .add-guest p {
-        padding: 2px 17px;
+        /* padding: 2px 17px; */
     }
     .add-guest img {
         padding-block: 10px;
@@ -1410,14 +1461,24 @@ button img {
         padding-inline: 80px;
     }
     .arrow-bar {
-        width: 2%;
+        width: 3%;
         margin-top: 16px;
         padding-left: 5px;
-        margin-right: 22px;
+        margin-right: 16px;
+    }
+    .arrow-bar img {
+        padding-top: 2px;
+        padding-left: 1px;
+        padding-right: 7px;
+    }
+    .icon-text span {
+        padding-top: 1px;
     }
     .filters {
-        width: 8%;
+        width: 11%;
         margin-right: 0px;
+        padding-left: 18px;
+        padding-top: 12px;
     }
     .filters img {
         padding-top: 2px;
@@ -1434,43 +1495,62 @@ button img {
         padding: 0px 80px;
     }
     .display-tax-text span {
-        font-family: font;
+        font-family: font2;
         padding-top: 3px;
         padding-left: 0px;
         letter-spacing: 0.20px;
     }
-    .icon-bar-tick{
-        width: 7%;
+    .icon-bar-tick {
+        width: 8%;
+        margin-right: 0px;
+    }
+    .tick-bar {
+        padding-left: 6px;
     }
     .main-body-section {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
     }
+    .card-contents {
+        row-gap: 0px;
+        padding-top: 12px;
+    }
     .card-contents h3 {
-        font-size: 16px;
+        font-size: 15px;
+        font-family: font2;
     }
     .card-contents p {
-        font-size: 16px;
+        font-size: 15px;
         /* line-height: 13px; */
     }
     .prize-tag {
-        font-size: 16px;
+        font-size: 15px;
     }
     .prize-tag-tax {
-        font-size: 17px;
+        font-size: 15px;
+        font-family: font2;
     }
     .post-card-image {
         width: 21vw;
         height: 20vw;
+        padding-top: 4px;
     }
     .wishlist-icon {
         top: 16px;
         left: 262px;
     }
+    .card-blog {
+        bottom: 13px;
+        left: 12px;
+    }
+    .prize-contents {
+        padding-top: 9px;
+    }
     .fixed-button button {
         top: 1060px;
         left: 693px;
-        width: 27%;padding-left: 7px;
+        width: 27%;
+        padding-left: 7px;
         padding-top: 14px;
     }
     .show-more {
@@ -1478,14 +1558,29 @@ button img {
     }
     .footer-section {
         line-height: normal;
+        height: 745px;
     }
     .footer-container-items {
-        padding-block: 57px;
+        padding-block: 48px;
         padding-inline: 80px;
         border-bottom: 1px solid rgb(221, 221, 221);
     }
     .footer-heading h2 {
         font-size: 22px;
+        font-family: font2;
+        letter-spacing: 0.28px;
+    }
+    .popular {
+        font-family: font2;
+    }
+    .scroll-items-footer {
+        padding-inline: 0px;
+        color: rgb(113, 113, 113);
+        font-size: 14px;
+        font-weight: 600;
+        font-family: font2;
+        margin-left: -16px;
+        gap: 28px;
     }
     .room-content-type-desktop {
         display: grid;
@@ -1504,19 +1599,19 @@ button img {
         letter-spacing: 0.9px;
     }
     .footer-room-contents-desktop {
-        padding: 44px 0px 0px;
+        padding: 30px 0px 0px;
     }
     .main-footer {
         padding: 0px 80px;
     }
     .support-page h3 {
-        margin: 0px 0px 2px;
+        margin: 4px 0px 2px;
         font-size: 14px;
         color: rgb(34, 34, 34);
         font-family: font;
     }
     .support-page {
-        padding-block: 40px;
+        padding-block: 48px;
     }
     .support-contents {
         row-gap: 10px;
@@ -1528,38 +1623,40 @@ button img {
         font-weight: 400;
     }
     .hosting-page h3 {
-        margin: 0px 0px -25px;
+        margin: 5px 0px -25px;
         font-size: 14px;
         color: rgb(34, 34, 34);
         font-family: font;
     }
     .hosting-page {
-        padding-block: 49px;
+        padding-block: 48px;
     }
     .hosting-contents {
-        row-gap: 0px;
+        row-gap: 6px;
         line-height: 20.02px;
         letter-spacing: 0.20px;
+        margin-bottom: 18px;
     }
     .hosting-contents p {
         font-size: 14px;
         font-weight: 400;
     }
     .airbnb-home {
-        padding-block: 53px;
+        padding-block: 48px;
     }
     .airbnb-home h3 {
-        margin: 0px 0px -14px;
+        margin: 4px 0px -14px;
         font-size: 14px;
         color: rgb(34, 34, 34);
         font-family: font;
     }
     .airbnb-home-contents {
         font-size: 14px;
-        row-gap: 2px;
+        row-gap: 6px;
+        padding-bottom: 17px;
     }
     .airbnb-home-contents p {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
     }
     .footer-last-session {
@@ -1568,14 +1665,18 @@ button img {
         flex-direction: row-reverse;
         padding-left: 42px;
         padding-bottom: 0px;
+        /* margin-top: 4px; */
     }
+
     .terms-conditions {
         display: flex;
-        margin-left: -133px;
         /* padding-top: 9px; */
-        letter-spacing: 0.48px;
+        /* letter-spacing: 0.48px; */
         font-size: 14px;
-        gap: 23px;
+        gap: 17px;
+        margin-left: -133px;
+        padding-top: 12px;
+        font-family: font2;
     }
     .currency-footer {
         padding-top: 4px;
