@@ -1,0 +1,758 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: font;
+    src: url('https://typography.doordash.com/TTNorms-Bold.woff2');
+}
+
+@font-face {
+    font-family: font1;
+    src: url('https://typography.doordash.com/TTNorms-Medium.woff2');
+}
+
+@font-face {
+    font-family: font2;
+    src: url('https://typography.doordash.com/TTNorms-Regular.woff2');
+}
+
+.emblem-tag {
+    display: none;
+}
+
+.location-bar {
+    display: none;
+}
+
+.emblem-tag-container {
+    display: none;
+}
+
+.doordash-text {
+    display: none;
+}
+
+.arrow-icon-side {
+    display: none;
+}
+
+.background-image {
+    height: 530px;
+    width: 375px;
+    background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_oh_canada/hero_landing_us_mobile.png');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 16px;
+    /* right: 24px; */
+}
+
+.sign-tags {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding-right: 0px;
+}
+
+.sign-in-tag {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 23, 0);
+    border-radius: 22px;
+    width: 72px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-tag span {
+    font-size: 16px;
+    font-family: 'font';
+    line-height: 22px;
+    letter-spacing: -0.454401px;
+    padding-left: 1px;
+}
+
+.sign-up-tag {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 73, 73);
+    border-radius: 22px;
+    width: 79px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-tag span {
+    font-size: 16px;
+    font-family: 'font';
+    line-height: 22px;
+    letter-spacing: -0.454401px;
+    padding-left: 2px;
+}
+
+.header-text-container {
+    padding-top: 111px;
+}
+
+.emblem-container {
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    padding-left: 25px;
+    /* top: 143px;
+    right: 158px; */
+}
+
+.header-heading {
+    letter-spacing: 0px;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'font';
+    color: rgb(255, 255, 255);
+    max-width: 350px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 25px;
+    /* position: absolute;
+    right: 83px;
+    top: 195px;
+    width: 207px; */
+}
+
+.search-button {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 32px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    border: none;
+    margin-top: 29px;
+    width: 93%;
+    justify-content: space-between;
+    margin-left: 19px;
+}
+
+.search-bar {
+    padding-left: 14px;
+    max-width: 100%;
+}
+
+.enter-text {
+    padding-right: 63px;
+    padding-top: 1px;
+    font-size: 16px;
+    /* color: rgb(25, 25, 25); */
+    color: rgb(133, 133, 133);
+    font-weight: 500;
+    font-family: 'font';
+}
+
+.arrow-bar {
+    padding-right: 8px;
+}
+
+.contact-address {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    margin-top: 16px;
+    width: 58%;
+    margin-left: 80px;
+}
+
+.contact-icon {
+    padding-left: 12px;
+}
+
+.contact-text {
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'font';
+    padding-left: 4px;
+}
+
+.app-container {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    height: 148px;
+    width: 335px;
+    margin-left: 20px;
+    margin-block: 19px;
+}
+
+.emblem-app-icon {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.google-play-services {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-bottom: 6px;
+}
+
+.google-play-services img {
+    width: 75px;
+    height: 13px;
+    margin-top: 1px;
+}
+
+.google-play-services span {
+    color: rgb(25, 25, 25);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'font';
+    letter-spacing: -0.04ch;
+    margin-bottom: 11px;
+}
+
+.google-play-services p {
+    color: rgb(118, 118, 118);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'font2';
+    margin-bottom: 3px;
+}
+
+.app-button {
+    background-color: rgb(235, 23, 0);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 24px;
+    width: 124px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 7px;
+}
+
+.app-button span {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'font1';
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.app-button img {
+    padding-right: 19px;
+}
+
+.body-contents {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dasher-component {
+    display: flex;
+    padding: 24px;
+}
+
+.dasher-component img {
+    width: 88px;
+    height: 88px;
+}
+
+.dasher-contents h2 {
+    color: rgb(25, 25, 25);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.908802px;
+    line-height: 40px;
+    font-family: 'font';
+    width: 88%;
+    padding-left: 31px;
+
+}
+
+.dasher-earnings {
+    padding-top: 10px;
+    padding-left: 22px;
+}
+
+.dasher-earnings img {
+    height: 16px;
+    width: 16px;
+    padding-top: 5px;
+}
+
+.dasher-contents h3 {
+    color: rgb(25, 25, 25);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    font-family: 'font1';
+    padding-left: 31px;
+}
+
+.dasher-earnings span {
+    color: rgb(235, 23, 0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.04ch;
+    font-family: 'font';
+    padding-left: 6px;
+}
+
+.cravings-pass{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: -300px;
+}
+.cravings-pass img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}.cravings-contents {
+
+}
+
+.cravings-contents h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.01ch;
+    color: rgb(25, 25, 25);
+    font-family: 'font';
+    text-align: left;
+    margin-top: 20px;
+}
+.cravings-contents span{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    color: rgb(25, 25, 25);
+    line-height: 22px;
+    letter-spacing: 0ch;
+    font-family: 'font';
+    margin-top: 10px;
+}
+.cravings-contents p{
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 0ch;
+    margin-top: 10px;
+    font-family: 'font1';
+}
+.craving-button{
+    background-color: rgb(235, 23, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 24px;
+    width: 126px;
+    height: 32px;
+}
+.craving-button p{
+    font-size: 14px;
+    font-family: 'font';
+    padding-top: 5px;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .background-image {
+        width: 100%;
+    }
+
+    .emblem-container {
+        display: none;
+    }
+
+    .emblem-tag-container {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .doordash-text {
+        display: none;
+    }
+
+    .hero-banner-container {
+        display: none;
+    }
+
+    header {
+        /* display: flex;
+        row-gap: 8px;
+        justify-content: flex-end; */
+        padding-right: 24px;
+        /* top: 16px; */
+        /* right: -25px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-main-container {
+        display: flex;
+        width: 100%;
+        width: 100%;
+
+        justify-content: flex-end;
+    }
+
+    .emblem-tag {
+        display: flex;
+        /* align-self: center;
+        margin-right: 161px; */
+        justify-content: center;
+        align-items: center;
+        width: 50.5%;
+        /* margin-left: -63px; */
+    }
+
+    .sign-in-tag {
+        width: 78px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-in-tag span {
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .sign-tags {
+        /* margin-left: 160px; */
+    }
+
+    .sign-up-tag {
+        width: 86px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-up-tag span {
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .header-text-container {
+        /* padding-top: 0px; */
+    }
+
+    /* .emblem-tag{
+        display: flex;
+    } */
+    .header-heading {
+        padding-top: 4px;
+        padding-left: 93px;
+    }
+
+    .search-button {
+        width: 53vw;
+        padding-top: 16px;
+        padding-top: 16px;
+        padding-bottom: 10px;
+        padding-bottom: 10px;
+        margin-left: 12px;
+    }
+
+    .location-bar {
+        display: flex;
+        padding-left: 20px;
+        padding-bottom: 5px;
+
+    }
+
+    .enter-text {
+        padding-right: 136px;
+    }
+
+    .arrow-bar {
+        padding-right: 12px;
+    }
+
+    .contact-address {
+        width: 27vw;
+        margin-left: 114px;
+    }
+
+    .body-contents {
+        margin: 32px 0px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dasher-component {
+        padding: 16px;
+        display: flex;
+        /* width: 100%;
+        min-width: 360px; */
+    }
+
+    .dasher-component img {
+        width: 124px;
+        height: 124px;
+        margin-right: 64px;
+    }
+
+    .dasher-contents {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .dasher-contents h2 {
+        width: 32vw;
+        padding-left: 0px;
+    }
+    .dasher-contents h3{
+        width: 251px;
+        padding-left: 0px;
+    }
+    .dasher-earnings{
+        padding-left: 0px;
+        padding-top: 11px;
+    }
+    .dasher-earnings span{
+        padding-left: 0px;
+    }
+
+    .dasher-earnings img {
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .background-image {
+        width: 100%;
+    }
+
+    .emblem-tag {
+        display: none;
+    }
+
+    .emblem-tag-container {
+        display: flex;
+    }
+
+    .emblem-text-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 64%;
+        gap: 12px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+    }
+
+    .doordash-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-heading {
+        font-size: 39px;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 496px;
+        padding-top: 16px;
+    }
+
+    .search-button {
+        width: 54vw;
+        margin-top: 42px;
+        padding-top: 15px;
+    }
+
+    .enter-text {
+        padding-right: 279px;
+    }
+
+    .contact-address {
+        margin-left: 185px;
+        width: 20vw;
+    }
+    .dasher-contents h2{
+        width: 24vw;
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:1440px) {
+
+    .background-image {
+        width: 1440px;
+        height: 800px;
+    }
+
+    .arrow-bar {
+        display: none;
+    }
+
+    .emblem-text-icon {
+        width: 75%;
+        padding-left: 14px;
+    }
+
+    .header-heading {
+        max-width: 750px;
+        padding-left: 24px;
+    }
+
+    .heading-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 458px;
+    }
+
+    .search-button {
+        width: 38vw;
+        height: 56px;
+        margin-top: 41px;
+    }
+
+    .contact-address {
+        margin-left: 11px;
+        width: 14vw;
+    }
+
+    .arrow-icon-side {
+        display: flex;
+        background-color: rgb(235, 23, 0);
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        margin-right: 2px;
+        padding-top: 7px;
+        margin-top: -7px;
+        padding-left: 5px;
+        padding-bottom: 7px;
+    }
+
+    .enter-text {
+        padding-top: 2px;
+        padding-right: 270px;
+        padding-right: 270px;
+    }
+
+    .body-contents{
+        margin: 96px 0px ;
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .dasher-component{
+        display: flex;
+        flex-flow: column;
+        min-width: 360px;
+        margin: 0px 17px;
+    }
+    .dasher-component img{
+        margin: 0px 64px 0px 0px;
+        display: flex;
+        justify-content: center;
+        width: 154px;
+        height: 154px;
+    }
+    .dasher-contents h2{
+        width: 17vw;
+        text-align: center;
+    }
+    .dasher-contents h3{
+        text-align: center;
+    }
+    .dasher-earnings{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dasher-earnings img{
+        width: 16px;
+        height: 16px;
+    }
+    .dasher-earnings span{
+        font-size: 18px;
+    }
+
+
+}
