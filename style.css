@@ -177,6 +177,7 @@ header{
     background-color:#121212 ;
     border-radius: 8px;
     width: 420px;
+    height: 625px;
 }
 .library-container{
     width: 420px;
@@ -199,6 +200,10 @@ header{
 .library-plus-icon{
     padding-top: 20px;
     padding-right: 25px;
+}
+.playlist-podcast-container{
+    display: flex;
+    flex-direction: column;
 }
 .playlist-container{
     background-color: rgb(36, 36, 36);
@@ -249,7 +254,199 @@ header{
     font-weight: 700;
     font-family: 'font2';
 }
-
+.podcast-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 20px;
+    padding: 16px 20px;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    margin: 16px 7px;
+    width: 404px;
+    height:139px ;
+}
+.podcast-contents span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    color: rgb(255, 255, 255);
+    font-family: 'font2';
+}
+.podcast-contents p{
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    font-family: 'font1';
+    padding-top: 9px;
+}
+.podcast-button{
+    background-color: rgb(255,255,255);
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 300px;
+    justify-content: center;
+    align-items:center;
+    width: 144px;
+    height: 32px;
+    margin-left: -1px;
+    margin-top: 0px;
+}
+.podcast-button p{
+    color: rgb(0,0,0);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'font2';
+}
+.cookie-content span{
+    color: rgb(179, 179, 179);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17.6px;
+    font-family: 'font1';
+}
+.cookies-container{
+    padding-top: 126px;
+    padding-left: 23px;
+}
+.cookie-button{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(114, 114, 114);
+    width: 95px;
+    height: 32px;
+    border-radius: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+.cookie-button img{
+    height: 16px;
+    width: 16px;
+    margin-right: 7px;
+}
+.cookie-button p{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'font1';
+    padding-right: 7px;
+}
+.desktop-container{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows:1fr auto ;
+}
+.main-right-container{
+    background-color: #121212;
+    width: 580px;
+    height: 789px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-side-bar{
+    display: flex;
+    gap: 8px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.side-right{
+    background-color: rgba(0,0,0,.7);
+    border: none;
+    border-radius: 50%;
+    color: #727272;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}
+.side-right img{
+    height: 16px;
+    width: 16px;
+}
+.side-left{
+    background-color: rgba(0,0,0,.7);
+    border: none;
+    border-radius: 50%;
+    color: #727272;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}
+.side-left img{
+    height: 16px;
+    width: 16px;
+}
+.sign-in-container{
+    display: flex;
+    padding-top: 11px;
+    padding-right: 18px;
+}
+.sign-up-tag{
+    color: rgb(167, 167, 167) ;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'font2';
+    padding-right: 32px;
+    padding-top: 13px;
+}
+.log-in-tag{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 500px;
+    box-sizing:border-box;
+    align-items: center;
+    justify-content: center;
+    width: 109px;
+    height: 48px;
+}
+.log-in-tag p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'font2';
+}
+.spotify-playlist-main-container{
+    background-color: #2a2a2a;
+    box-sizing: border-box;
+    width: 580px;
+    height: 731px;
+    margin-top: 10px;
+}
+.playlist-header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content-playlist{
+    color: rgb(255, 255, 255);
+    /* font-size: 24px; */
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'font1';
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+.show-contents{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22.4px;
+    font-family: 'font1';
+    padding-right: 19px;
+    padding-top: 8px;
+}
 
 
 
