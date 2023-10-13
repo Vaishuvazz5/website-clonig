@@ -70,6 +70,15 @@
 .personal-privacy-contents {
     display: none;
 }
+.doordash-code{
+    display: none;
+}
+.package-one-content-desktop-image{
+    display: none;
+}
+.package-one-content-image{
+    display: flex;
+}
 
 .fixed-control-tag {
     position: fixed;
@@ -90,6 +99,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    margin-left: -3px;
 }
 
 .inline-controls {
@@ -468,8 +478,8 @@ header {
 .background-path {
     background-color: rgb(254, 241, 238);
     position: absolute;
-    top: 20%;
-    height: 80%;
+    top: 18%;
+    height: 82%;
     z-index: -1;
     width: 100%;
 }
@@ -545,13 +555,13 @@ header {
 }
 
 .delivery-contents span {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     font-weight: 700;
     color: rgb(25, 25, 25);
     line-height: 22px;
     letter-spacing: 0ch;
-    font-family: 'font1';
+    font-family: 'font2';
     margin-top: 10px;
 }
 
@@ -582,7 +592,7 @@ header {
     height: 350px;
     width: 375px;
     background-color: rgba(30, 30, 30, 0.6);
-    filter: brightness(47%);
+    filter: brightness(51%);
     object-fit: cover;
 }
 
@@ -736,7 +746,12 @@ header {
     height: 180px;
     object-fit: cover;
 }
-
+.package-one-content-desktop-image{
+    display: flex;
+}
+.package-one-content-image{
+    display: none;
+}
 .package-home-contents h2 {
     font-size: 24px;
     font-weight: 700;
@@ -946,7 +961,8 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 35px;
+    padding-left: 16px;
 }
 
 .top-city-tag {
@@ -978,7 +994,8 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 8px;
+    gap: 9px;
+    padding-top: 5px;
 }
 
 .most-recent-contents span {
@@ -1014,12 +1031,12 @@ header {
     justify-content: space-between;
     gap: 25px;
 }
-
 .most-cuisines-contents {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 9px;
+    gap: 7px;
+    padding-top: 4px;
 }
 
 .most-cuisines-contents span {
@@ -1150,7 +1167,7 @@ header {
     flex-direction: column;
     text-align: center;
     gap: 7px;
-    padding-top: 7px;
+    padding-top: 8px;
 }
 
 .promote-contents span {
@@ -1185,8 +1202,8 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 7px;
-    padding-top: 7px;
+    gap: 8px;
+    padding-top: 1px;
 }
 
 .work-contents span {
@@ -1201,7 +1218,8 @@ header {
 .media-emblems {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
+    padding-bottom: 4px;
 }
 
 .input-container {
@@ -1257,7 +1275,7 @@ header {
 .inline-child-contents {
     display: flex;
     justify-content: center;
-    gap: 14px;
+    gap: 19px;
 }
 
 .inline-child-contents span {
@@ -1325,7 +1343,8 @@ header {
 @media screen and (min-width: 768px) {
 
     .fixed-control-tag {
-        padding: 16px 12px;
+        /* padding: 16px 48px; */
+        padding: 16px 13px;
     }
 
     .button-control {
@@ -1388,6 +1407,12 @@ header {
 
     .privacy-child-contents {
         display: none;
+    }
+    .package-one-content-image{
+        display: none;
+    }
+    .package-one-content-desktop-image{
+        display: flex;
     }
 
     header {
@@ -1959,7 +1984,7 @@ header {
     }
 
     .bussiness-dash-content {
-        margin-top: 43px;
+        /* margin-top: 43px; */
     }
 
     .footer-starting-contents {
@@ -2019,8 +2044,9 @@ header {
 
     .most-popular-contents {
         text-align: left;
-        gap: 5px;
-        padding-top: 21px;
+        gap: 6px;
+        padding-top: 22px;
+        margin-right: -17px;
     }
 
     .ending-container {
@@ -2081,10 +2107,11 @@ header {
     .inline-container {
         display: flex;
         justify-content: center;
-        width: 54%;
+        /* width: 54%; */
+        width: auto;
         /* gap: 4px; */
         margin-top: 0px;
-        margin-left: 23px;
+        margin-left: -12px;
     }
 
     .privacy-contents-desktop {
@@ -2132,6 +2159,21 @@ header {
         padding-inline: 15px;
         margin-block: -18px;
     }
+    .media-emblems{
+        padding-bottom: 2px;
+        gap: 12px;
+    }
+    .input-logo-contents{
+        margin-inline: -3px;
+    }
+    .logo-footer{
+        padding-top: 30px;
+        gap: 5px;
+    }
+    .inline-image{
+        margin-inline: -4px;
+    }
+    
 
 
 
@@ -2149,6 +2191,9 @@ header {
 
 
 @media screen and (min-width:1024px) {
+    .fixed-control-tag{
+        padding: 16px 48px; 
+    }
 
     .background-image {
         width: 100%;
@@ -2172,6 +2217,12 @@ header {
 
     .personal-contents-desktop {
         display: none;
+    }
+    .package-one-content-image{
+        display: none;
+    }
+    .package-one-content-desktop-image{
+        display: flex;
     }
 
     .emblem-text-icon {
@@ -2246,6 +2297,10 @@ header {
         width: 524px;
         height: 500px;
         object-fit: cover;
+        margin-top: 21px;
+    }
+    .delivery-contents{
+        padding-top: 18px;
     }
 
     .delivery-contents h2 {
@@ -2266,7 +2321,7 @@ header {
     }
 
     .store-contents p {
-        width: 45vw;
+        width: 51vw;
     }
 
     .doorstep-tag {
@@ -2307,12 +2362,16 @@ header {
     }
 
     .unlock-dash-content h2 {
-        width: 42vw;
+        width: 40vw;
+        letter-spacing: -0.02ch;
     }
 
     .unlock-dash-content p {
         width: 40vw;
         font-family: 'font1';
+    }
+    .unlock-button p{
+        font-family: 'font';
     }
 
     .image-dash-bar-desktop-image img {
@@ -2330,16 +2389,22 @@ header {
     }
 
     .bussiness-dash-content {
-        margin-top: 54px;
+        /* margin-top: 54px; */
     }
 
     .top-city-container {
         gap: 80px;
+        padding-top: 10px;
+    }
+    .most-recent-contents{
+        gap: 9px;
     }
 
     .footer-starting-contents {
         display: flex;
         gap: 52px;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .top-cuisines-container {
@@ -2413,6 +2478,44 @@ header {
     .top-popular-tag h2{
         margin-bottom: 6px;
     }
+    .inline-code-image{
+        display: flex;
+    }
+    .doordash-code{
+        display: flex;
+        padding-left: 12px;
+    }
+    .background-path{
+        top: 44%;
+    }
+    .doorstep-tag p{
+        width: 36vw;
+    }
+    .package-home-contents p{
+        width: 45vw;
+        margin-top: 20px;
+    }
+    .package-home-button{
+        height: 36px;
+        margin-top: 33px;
+    }
+    .package-home-button p{
+        margin-top: 5px;
+    }
+    .unlock-tag{
+        padding: 58px 20px 40px;
+    }
+    .unlock-content{
+        padding-top: 40px;
+        padding-inline: 20px;
+    }
+    .unlock-dash-content{
+        margin-bottom: 35px;
+    }
+    .image-dash-container{
+        top: 45%;
+    }
+   
 
 
 
@@ -2430,7 +2533,7 @@ header {
 
     .background-image {
         width: 1440px;
-        height: 800px;
+        height: 650px;
     }
 
     .arrow-bar {
@@ -2486,7 +2589,7 @@ header {
     }
 
     .body-contents {
-        margin: 96px 0px;
+        margin: 59px 0px;
         padding: 12px;
         display: flex;
         flex-direction: row;
@@ -2497,11 +2600,12 @@ header {
         display: flex;
         flex-flow: column;
         min-width: 360px;
-        margin: 0px 17px;
+        margin: 5px 17px;
     }
 
     .dasher-component img {
-        margin: 0px 64px 0px 0px;
+        /* margin: 0px 64px 0px 0px; */
+        margin-left: 50px;
         display: flex;
         justify-content: center;
         width: 154px;
@@ -2657,18 +2761,23 @@ header {
         flex-wrap: wrap;
         align-content: center;
         margin-inline: auto;
-        max-width: 1158px;
+        max-width: 1159px;
     }
 
     .inline-container {
         display: flex;
         white-space: nowrap;
         width: auto;
+        /* margin-inline: -1px; */
+        margin-left: -11px;
     }
 
     .footer-starting-contents {
         display: flex;
         flex-direction: row;
+        gap: 0px;
+        padding-left: 0px;
+        /* gap: 65px; */
     }
 
     .footer-container {
@@ -2682,13 +2791,15 @@ header {
 
     .final-contents {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        margin-right: 61px;
+        /* margin-right: 61px; */
+        gap: 11px;
+        padding-bottom: 35px;
     }
 
     .top-popular-container {
-        gap: 140px;
+        gap: 148px;
     }
 
     .top-city-container {
@@ -2697,6 +2808,30 @@ header {
 
     .top-cuisines-container {
         gap: 163px;
+        padding-left: 96px;
+    }
+    .figuring-tag{
+        padding-bottom: 36px;
+    }
+    .promoting-tag{
+        margin-right: 4px;
+    }
+    .top-popular-tag{
+        margin-right: 0px;
+        padding: 32px 0px;
+    }
+    .input-container{
+        padding-inline:46px;
+        margin-bottom:-15px;
+    }
+    .media-emblems{
+        padding-bottom: 11px;
+    }
+    .top-cuisines-tag{
+        padding-top: 50px;
+    }
+    .top-cuisines-tag h2{
+        padding-left: 96px;
     }
 
 
