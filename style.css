@@ -29,6 +29,10 @@
     src: url('https://encore.scdn.co/fonts/CircularSpTitle-Black-3f9afb402080d53345ca1850226ca724.woff2');
 }
 
+.desktop-main-container {
+    display: none;
+}
+
 body {
     background-color: black;
 }
@@ -142,6 +146,14 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+    .desktop-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-data-encore {
+        display: flex;
+    }
 
     .mobile-container {
         display: none;
@@ -180,6 +192,10 @@ header {
         display: flex;
     }
 
+    .home-tag-image {
+        padding-top: 1px;
+    }
+
     .home-tag span {
         font-size: 16px;
         font-weight: 700;
@@ -191,8 +207,12 @@ header {
     }
 
     .search-bar-tag {
-        padding-top: 22px;
+        padding-top: 18px;
         display: flex;
+    }
+
+    .search-bar-tag-image {
+        padding-top: 1px;
     }
 
     .search-bar-tag span {
@@ -208,8 +228,8 @@ header {
         margin-left: 9px;
         background-color: #121212;
         border-radius: 8px;
-        width: 420px;
-        height: 625px;
+        width: 419px;
+        height: 634px;
     }
 
     .library-container {
@@ -220,9 +240,15 @@ header {
         justify-content: space-between;
     }
 
+    .library-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .library-content img {
         padding-left: 23px;
-        padding-top: 16px;
+        padding-top: 5px;
     }
 
     .library-content span {
@@ -230,7 +256,7 @@ header {
         font-size: 16px;
         font-weight: 700;
         font-family: 'font2';
-        padding-left: 6px;
+        padding-left: 12px;
     }
 
     .library-plus-icon {
@@ -251,7 +277,7 @@ header {
         justify-content: center;
         margin: 8px 7px;
         width: 404px;
-        height: 139px;
+        height: 140px;
     }
 
     .playlist-content {
@@ -259,7 +285,8 @@ header {
         flex-direction: column;
         gap: 8px;
         color: rgb(179, 179, 179);
-        padding-left: 19px;
+        padding-left: 20px;
+        padding-bottom: 20px;
     }
 
     .playlist-content span {
@@ -285,10 +312,10 @@ header {
         border-radius: 300px;
         justify-content: center;
         align-items: center;
-        width: 126px;
+        width: 127px;
         height: 32px;
         margin-left: 20px;
-        margin-top: 22px;
+        /* margin-top: 22px; */       
     }
 
     .playlist-button p {
@@ -308,7 +335,7 @@ header {
         background-color: rgb(36, 36, 36);
         margin: 16px 7px;
         width: 404px;
-        height: 141px;
+        height: 140px;
     }
 
     .podcast-contents span {
@@ -325,7 +352,7 @@ header {
         font-weight: 400;
         line-height: 22.4px;
         font-family: 'font1';
-        padding-top: 9px;
+        padding-top: 8px;
     }
 
     .podcast-button {
@@ -335,9 +362,9 @@ header {
         border-radius: 300px;
         justify-content: center;
         align-items: center;
-        width: 144px;
+        width: 143px;
         height: 32px;
-        margin-left: -1px;
+        margin-left: 0px;
         margin-top: 0px;
     }
 
@@ -357,7 +384,7 @@ header {
     }
 
     .cookies-container {
-        padding-top: 126px;
+        padding-top: 134px;
         padding-left: 23px;
     }
 
@@ -366,24 +393,26 @@ header {
         color: rgb(255, 255, 255);
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid rgb(114, 114, 114);
-        width: 95px;
+        width: 96px;
         height: 32px;
         border-radius: 500px;
         align-items: center;
         justify-content: center;
-        margin-top: 32px;
+        margin-top: 33px;
+        padding-left: 3px;
     }
 
     .cookie-button img {
         height: 16px;
         width: 16px;
-        margin-right: 7px;
+        margin-right: 4px;
+        margin-top: 5px;
     }
 
     .cookie-button p {
         font-size: 14px;
         font-weight: 700;
-        font-family: 'font1';
+        font-family: 'font2';
         padding-right: 7px;
     }
 
@@ -398,8 +427,8 @@ header {
         background-color: #121212;
         width: 580px;
         height: 789px;
-        border-radius: 10px;
-        margin-top: 5px;
+        border-radius: 7px;
+        margin-top: 8px;
         margin-right: 8px;
     }
 
@@ -412,7 +441,7 @@ header {
         display: flex;
         gap: 8px;
         box-sizing: border-box;
-        padding-top: 20px;
+        padding-top: 17px;
         padding-left: 15px;
     }
 
@@ -452,8 +481,8 @@ header {
 
     .sign-in-container {
         display: flex;
-        padding-top: 11px;
-        padding-right: 18px;
+        padding-top: 8px;
+        padding-right: 17px;
     }
 
     .sign-up-tag {
@@ -488,7 +517,7 @@ header {
         background-color: #121212;
         box-sizing: border-box;
         width: 580px;
-        height: 725px;
+        height: 732px;
         border-radius: 8px;
         margin-top: 10px;
     }
@@ -507,6 +536,7 @@ header {
         box-sizing: border-box;
         padding-left: 15px;
         padding-top: 2px;
+        letter-spacing: 0.08px;
     }
 
     .show-contents {
@@ -515,17 +545,19 @@ header {
         font-weight: 700;
         line-height: 22.4px;
         font-family: 'font1';
-        padding-right: 19px;
+        padding-right: 18px;
         padding-top: 8px;
+        letter-spacing: 0.08px;
     }
 
     .playlists-image-container {
         display: flex;
         flex-direction: row;
+        gap: 1px;
     }
 
     .image-container-items {
-        background-color: #000;
+        background-color: #1a1a1a;
         display: flex;
         flex-direction: column;
         width: 170px;
@@ -539,13 +571,14 @@ header {
         height: 138px;
         width: 138px;
         margin-top: 15px;
-        margin-left: 16px;
-        border-radius: 8px;
+        margin-left: 15px;
+        /* border-radius: 8px; */
+        border-radius: 5px;
     }
 
     .image-contents-playlist {
-        padding-left: 16px;
-        padding-top: 19px;
+        padding-left: 14px;
+        padding-top: 14px;
     }
 
     .image-contents-playlist p {
@@ -554,22 +587,24 @@ header {
         font-size: 16px;
         font-weight: 700;
         line-height: 25.6px;
-        font-family: 'font4';
+        font-family: 'font3';
+        letter-spacing: 0.68px;
     }
 
-    .image-contents-playlist span {
+    .text-content {
         color: rgb(167, 167, 167);
         font-size: 14px;
         font-weight: 400;
         line-height: 22.4px;
         box-sizing: border-box;
         font-family: 'font1';
+        margin-top: 1px;
     }
 
     .preview-encloser-tag {
         background-image: linear-gradient(90deg, rgb(175, 40, 150), rgb(80, 155, 245));
         width: 1008px;
-        height: 66px;
+        height: 67px;
         display: flex;
         flex-direction: row;
         gap: 24px;
@@ -611,6 +646,7 @@ header {
         justify-content: center;
         padding-block: 8px;
         padding-inline: 32px;
+        margin-top: 1px;
     }
 
     .button-preview-tag span {
@@ -630,12 +666,12 @@ header {
         width: 996px;
     } */
     .cookies-playlist-container {
-        height: 671px;
+        height: 679px;
     }
 
     .main-right-container {
         width: 996px;
-        height: 835px;
+        height: 843px;
     }
 
     .preview-encloser-tag {
@@ -644,11 +680,12 @@ header {
 
     .right-header {
         background-color: rgba(0, 0, 0, .5);
+        /* background-color: #121212; */
         height: 64px;
     }
 
     .arrow-side-bar {
-        padding-left: 24px;
+        padding-left: 23px;
     }
 
     .sign-in-container {
@@ -660,8 +697,9 @@ header {
     }
 
     .header-content-playlist h2 {
-        margin-top: -6px;
+        margin-top: -9px;
         margin-left: 8px;
+        letter-spacing: 0.08px;
     }
 
     .show-contents span {
@@ -669,20 +707,132 @@ header {
         margin-right: -21px; */
         margin-right: -41px;
         white-space: nowrap;
+        letter-spacing: 0.18px;
     }
 
     .desktop-container-image {
         display: flex;
+        gap: 8px;
+    }
+
+    .show-contents {
+        padding-top: 0px;
     }
 
     .playlists-image-container {
-        margin-left: 9px;
-        gap: 9px;
+        margin-left: 6px;
+        margin-top: 0px;
+        gap: 7px;
     }
 
     .image-container-items img {
         margin-right: 16px;
+        margin-top: 16px;
+        margin-left: 16px;
     }
+
+    .cookies-container {
+        padding-top: 180px;
+    }
+
+    .image-contents-playlist p {
+        font-family: 'font2';
+        margin-top: -7px;
+        letter-spacing: 0.05px;
+    }
+
+    .search-bar-tag span {
+        margin-top: -1px;
+    }
+
+    .cookie-button {
+        margin-top: 33px;
+        width: 96px;
+        padding-left: 0px;
+    }
+
+    .cookie-button-image {
+        padding-top: 5px;
+    }
+
+    .cookie-button img {
+        margin-right: 5px;
+        margin-top: 1px;
+    }
+
+    .cookie-button p {
+        padding-right: 3px;
+    }
+
+    .playlist-content {
+        padding-left: 20px;
+    }
+
+    /* .playlist-button {
+        width: 127px;
+        margin-top: 22px;
+    } */
+
+    .library-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .library-content span {
+        margin-block: 2px;
+        padding-left: 12px;
+    }
+
+    .library-content img {
+        padding-top: 5px;
+    }
+
+    .search-bar-tag {
+        padding-top: 19px;
+    }
+
+    .home-tag-image {
+        padding-top: 1px;
+    }
+
+    .image-contents-playlist {
+        padding-left: 16px;
+        padding-top: 18px;
+    }
+
+    .image-container-items {
+        background-color: #1a1a1a;
+    }
+
+    .search-bar-tag-image {
+        padding-top: 0px;
+    }
+    .preview-encloser-tag{
+        margin-top: 1px;
+    }
+    .text-content{
+        margin-top: 4px;1px
+    }
+
+     /* .side-right{
+        color: internal light dark(rgba(16,16,16,0.3),rgba(255,255,255,0.3));
+    } */
+    .image-contents-playlist span{
+        margin-top: 4px;
+    }
+
+    .arrow-side-bar{
+        /* color: rgb(179,179,179); */
+        color: rgb(0,0,0,0.7);
+    }
+
+     
+   
+   
+
+
+
 
 
 }
