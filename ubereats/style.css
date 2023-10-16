@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'font';
+    src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/eee1724e2e5a8ebd.woff2);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/14f73a3f74611002.woff2);
+}
+@font-face {
+    font-family: 'font3';
+    src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/276edd4275dda838.woff2);
+}
+@font-face {
+    font-family: 'font4';
+    src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
+@font-face {
+    font-family: 'font5';
+    src: url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+}
+
+header{
+    display: flex;
+    /* justify-content: flex-start; */
+    position: relative;
+}
+.background-image{
+    width: 375px;
+    height: 889px;
+    object-fit: cover;
+}
+.background-image img{
+    width: 100%;
+    height: 100%;
+}
+.header-main-class{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 72px;
+    width: 100%;
+}
+.header-class{
+    display: flex;
+    padding-top: 26px;
+    gap: 28px;
+}
+.hamburger{
+    height: 20px;
+    width: 20px;
+    /* padding-top: 26px; */
+}
+.uber-text{
+    width: 111px;
+    height: 20px;
+}
+.uber-text img{
+    width: 100%;
+    height: 100%;
+}
+.log-in-tag{
+    display: flex;
+    padding-top: 18px;
+    gap: 17px;
+}
+.contact-symbol{
+    background-color: #fff;
+    padding: 10px 12px;
+    border-radius: 500px;
+    line-height: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+    width: 40px;
+    height: 36px;
+    margin-top: 0px;
+}
+.sign-up-tag{
+    background-color: #000000;
+    color: #ffff;
+    white-space: nowrap;
+    padding: 10px 11px;
+    border-radius: 500px;
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 73px;
+    height: 36px;
+}
+.sign-up-tag p{
+    /* padding: 12px 12px; */
+    font-family: 'font';
+}
+
+@media screen and (min-width: 768px) {
+
+    .background-image{
+        width: 768px;
+        height: 1531px;
+    }
+    .background-image img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
