@@ -566,6 +566,9 @@ nav {
     overflow: scroll;
     font-size: 30px;
 }
+.tabs-containers::-webkit-scrollbar {
+    display: none;
+  }
 
 .tabs-containers button {
     background-color: rgb(0, 85, 151);
@@ -821,6 +824,9 @@ nav {
     padding-top: 35px;
     padding-left: 20px;
 }
+.tab-group::-webkit-scrollbar {
+    display: none;
+  }
 
 .tab-group button {
     background-color: rgb(0, 85, 151);
@@ -1235,6 +1241,9 @@ nav {
     padding-inline: 20px;
     height: 50px;
     box-shadow: 0px 1px 1px 3px rgb(237, 232, 246);
+}
+.scroll-bar-tabs::-webkit-scrollbar {
+    display: none;
 }
 
 .scroll-tabs {
