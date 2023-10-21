@@ -1650,7 +1650,7 @@ header {
     }
 
     .hero-banner {
-        margin-top: 11px;
+        margin-top: 10px;
         height: 177px;
     }
 
@@ -1933,6 +1933,7 @@ header {
     .footer-button-one p {
         padding-right: 24px;
         padding-top: 13px;
+        font-weight: 500;
     }
 
     .dropdown-default {
@@ -1942,6 +1943,12 @@ header {
     .footer-nav-bar {
         margin-top: 32px;
         margin-bottom: 40px;
+    }
+    .icon-size{
+        padding-top: 5px;
+    }
+    .footer-text-heading{
+        padding-left: 2px;
     }
 
 
@@ -2233,8 +2240,9 @@ header {
     .scroll-bar {
         right: 28px;
         /* bottom: -3523px; */
-        top: 3333px;
+        top: 3301px;
         bottom: 0;
+        background: linear-gradient(to left,#fff 75%,rgba(255,255,255,0));
     }
 
     .machine-body-details p {
@@ -2548,9 +2556,6 @@ header {
     }
 
 
-
-
-
     .desktop-right-header {
         display: flex;
     }
@@ -2700,8 +2705,8 @@ header {
     .hero-image-container img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        padding-right: 0px;
+        object-fit: contain;
+        padding-right: 35px;
     }
 
     .link-group {
@@ -2715,9 +2720,9 @@ header {
         width: 100%;
     }
 
-    .hero-image-container img {
+    /* .hero-image-container img {
         /* margin-left: -77px; */
-    }
+    /* } */ 
 
     .arrow-bar {
         padding-top: 3px;
@@ -2950,7 +2955,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: -32px;
+        /* margin-left: -32px; */
         width: 100%;
     }
 
@@ -3036,6 +3041,7 @@ header {
     .startup-container {
         display: flex;
         justify-content: center;
+        align-items: center;
         height: 256px;
     }
 
@@ -3054,6 +3060,7 @@ header {
 
     .footer-nav-items {
         width: 223px;
+        margin-block: 32px;
     }
 
     .footer-nav-social {
@@ -3141,16 +3148,22 @@ header {
     .footer-row-column-section {
         padding-bottom: 51px;
     }
-
-
-
-
-
-
-
-
-
-
-
+    .arrow-bar img{
+        color: rgb(80, 230, 255);
+    }
+    .footer-nav-azure{
+        padding-bottom: 25px;
+    }
 
 }
+
+
+
+/* @media screen and (min-width:2791px)  {
+    .main-hero-container{
+        width: 2791px;
+        height: 505px;
+    }
+
+    
+} */
