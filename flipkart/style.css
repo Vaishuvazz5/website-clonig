@@ -687,10 +687,11 @@ header {
         font-size: 14px;
         font-weight: 400;
         font-family: 'font2';
-        padding-left: 13px;
+        padding-left: 14px;
         padding-right: 16px;
         white-space: nowrap;
         padding-top: 6px;
+        color: #878787;
     }
 
     .search-bar-icon {
@@ -1291,6 +1292,7 @@ header {
 
     .desktop-filter-mobiles {
         height: 7179px;
+        width: 270px;
     }
 
     .mobile-header-contents {
@@ -1332,6 +1334,9 @@ header {
 
     .mobile-details span {
         color: rgb(135, 135, 135);
+    }
+    .main-mobile-container{
+        margin-left: 5px;
     }
 
     .product-contents {
@@ -1575,6 +1580,8 @@ header {
         padding-bottom: 4px;
         padding-top: 4px;
         border-radius: 2px;
+        width: 153px;
+        white-space: nowrap;
     }
 
     .discount-content p {
@@ -1786,7 +1793,8 @@ header {
         width: 100%;
         height: 100%;
     }
-    .review-mobile-contents{
+
+    .review-mobile-contents {
         padding-left: 21px;
     }
 
@@ -1902,11 +1910,12 @@ header {
         padding-left: 24px;
         padding-right: 24px;
     }
-    .row-section-comment{
+
+    .row-section-comment {
         font-size: 14px;
         line-height: 19.6px;
         font-family: 'font2';
-        white-space: nowrap;
+        /* white-space: nowrap; */
         padding-left: 24px;
         padding-right: 24px;
         margin-top: 12px;
@@ -1918,7 +1927,8 @@ header {
         padding-left: 24px;
         padding-right: 24px;
     }
-    .row-banner-comment p{
+
+    .row-banner-comment p {
         color: rgb(135, 135, 135);
         font-size: 12px;
         font-weight: 500;
@@ -1927,22 +1937,26 @@ header {
         font-family: 'font2';
         white-space: nowrap;
     }
-    .recent-review-heading{
+
+    .recent-review-heading {
         color: rgb(135, 135, 135);
         font-size: 14px;
         padding-left: 24px;
         line-height: 19.6px;
         font-family: 'font2';
     }
-    .column-review-contents{
+
+    .column-review-contents {
         padding-left: 24px;
         padding-right: 24px;
     }
-    .row-content{
+
+    .row-content {
         display: flex;
     }
-    .rating-review-recent{
-        background-color: rgb(56,142,60);
+
+    .rating-review-recent {
+        background-color: rgb(56, 142, 60);
         color: rgb(255, 255, 255);
         border-radius: 3px;
         font-weight: 500;
@@ -1953,7 +1967,8 @@ header {
         justify-content: center;
         align-items: center;
     }
-    .row-content p{
+
+    .row-content p {
         color: #212121;
         font-size: 14px;
         font-weight: 500;
@@ -1962,16 +1977,19 @@ header {
         line-height: 19.6px;
         font-family: 'font1';
     }
-    .row-review-banner{
+
+    .row-review-banner {
         margin-top: 12px;
         margin-bottom: 12px;
     }
-    .row-review-banner p{
+
+    .row-review-banner p {
         font-size: 14px;
         line-height: 19.6px;
         font-family: 'font2';
     }
-    .row-review-banner span{
+
+    .row-review-banner span {
         color: rgb(40, 116, 240);
         font-size: 14px;
         font-weight: 500;
@@ -1982,7 +2000,8 @@ header {
     .review-details {
         display: flex;
     }
-    .review-details p{
+
+    .review-details p {
         color: rgb(135, 135, 135);
         font-size: 12px;
         font-weight: 500;
@@ -1990,11 +2009,293 @@ header {
         margin-right: 8px;
         font-family: 'font2';
         white-space: nowrap;
-
     }
 
+    .main-footer-container {
+        border-top: 1px solid #ddd;
+    }
 
+    .footer-container {
+        margin-top: 25px;
+        background-color: #fff;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
+    .footer-row-content-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .footer-section-column {
+        color: rgb(135, 135, 135);
+        margin-bottom: 30px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 347px;
+        flex-shrink: 0;
+        height: 461px;
+    }
+
+    .footer-column-mobile-heading {
+        font-size: 14px;
+        box-sizing: border-box;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 10px;
+        font-family: 'font1';
+    }
+
+    .mobile-header-footer {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        color: rgb(135, 135, 135);
+        font-size: 11px;
+        font-weight: 500;
+        font-family: 'font1';
+        line-height: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e0e0e0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mobile-content-footer a {
+        color: rgb(40, 116, 240);
+        font-size: 11px;
+        line-height: 16px;
+        font-family: 'font';
+    }
+
+    .price-detail-content a {
+        color: rgb(135, 135, 135);
+        font-size: 11px;
+        line-height: 16px;
+        font-family: 'font1';
+    }
+
+    .updated-message {
+        box-sizing: border-box;
+        margin-top: 12px;
+        font-size: 12px;
+        font-style: italic;
+        line-height: 16px;
+        font-family: 'font';
+    }
+
+    .footer-link-items {
+        color: #2874f0;
+        font-size: 11px;
+        line-height: 16px;
+        font-family: 'font';
+    }
+
+    .body-footer-container h2 {
+        color: rgb(135, 135, 135);
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'font1';
+        margin-bottom: 10px;
+    }
+
+    .mi-mobile-footer-content {
+        color: rgb(135, 135, 135);
+        font-size: 11px;
+        line-height: 16px;
+        font-family: 'font2';
+    }
+
+    .mi-mobile-footer-content a {
+        color: rgb(40, 116, 240);
+    }
+
+    .heading-footer {
+        color: rgb(40, 116, 240);
+        font-size: 13px;
+        line-height: 16px;
+        font-family: 'font';
+    }
+
+    .heading-footer span {
+        color: rgb(135, 135, 135);
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #878787;
+        border-collapse: collapse;
+        /* padding-left: 5px; */
+        color: rgb(135, 135, 135);
+        display: table-cell;
+        font-size: 11px;
+        font-weight: 700;
+        font-family: 'font';
+        line-height: 16px;
+        text-align: left;
+    }
+
+    td a {
+        color: rgb(40, 116, 240);
+        font-size: 11px;
+        line-height: 16px;
+        font-family: 'font3';
+        padding-right: 100px;
+    }
+    .row-content-footer-container{
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+    .problem-solution-heading{
+        padding-bottom: 10px;
+        padding-left: 24px;
+        padding-top: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        border-bottom: 1px solid #e0e0e0;
+        font-family: 'font1';
+        text-align: left;
+    }
+    .solution-type-container{
+        border-bottom: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        font-size: 12px;
+        line-height: 16px;
+        font-family: 'font';
+        padding: 10px 24px;
+        /* padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 24px;
+        padding-right: 24px; */
+        /* width: 100%; */
+    }
+    .question-type{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        font-family: 'font2';
+    }
+    .answer-type{
+        font-size: 12px;
+        font-family: 'font2';
+        line-height: 16px;
+    }
+    .final-footer-section{
+        background-color: #172337;
+    }
+    .footer-section-contents{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+        margin-left: 65px;
+        gap: 9px;
+    }
+    .about-tag{
+        color: rgb(135, 135, 135) ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.8px;
+        margin-bottom: 9px;
+        font-family: 'font2';
+    }
+    .about-content-tag{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-contents{
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: 'font2';
+    }
+    .mail-register-container{
+        display: flex;
+    }
+    .mail-footer-contents{
+        border-left: 1px solid rgb(69, 77, 94);
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mail-footer-container{
+        padding-left: 60px;
+    }
+    .mail-header{
+        color: rgb(135, 135, 135);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.8px;
+        margin-bottom: 9px;
+        font-family: 'font2';
+    }
+    .mail-contents{
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'font2';
+    }
+    .register-footer-contents{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding-left: 14px;
+    }
+    .register-header{
+        color: rgb(135, 135, 135);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.8px;
+        font-family: 'font2';
+        margin-bottom: 9px;
+    }
+    .register-contents{
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'font2';
+    }
+    .register-contents a{
+        color: rgb(40, 116, 240);
+    }
+    .final-footer-section-content{
+        border-top: 1px solid rgb(69, 77, 94);
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        /* flex-direction: column; */
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seller-container{
+        display: flex;
+    }
+    .seller-content{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 19.6px;
+        margin-left: 8px;
+        font-family: 'font2';
+    }
+    .logo-icon-signal{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 19.6px;
+        font-family: 'font';
+    }
 
 
 
