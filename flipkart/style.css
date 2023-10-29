@@ -392,6 +392,7 @@ header {
     font-size: 12px;
     font-weight: 400;
     margin-top: 6px;
+    font-family: 'font3';
 }
 
 .delivery-content {
@@ -399,6 +400,7 @@ header {
     margin-top: 6px;
     font-size: 12px;
     font-weight: 500;
+    font-family: 'font';
 }
 
 .storage-container {
