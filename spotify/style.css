@@ -111,9 +111,10 @@ header {
     padding-top: 20px;
     gap: 16px;
 }
+
 .hero-banner-scroll-bar::-webkit-scrollbar {
     display: none;
-  }
+}
 
 .hero-banner-image-contents {
     display: flex;
@@ -137,14 +138,10 @@ header {
 
 @media screen and (min-width: 768px) {
 
-
-
     .hero-heading h2 {
         font-size: 24px;
 
     }
-
-
 
 }
 
@@ -318,7 +315,6 @@ header {
         width: 127px;
         height: 32px;
         margin-left: 20px;
-        /* margin-top: 22px; */       
     }
 
     .playlist-button p {
@@ -532,7 +528,6 @@ header {
 
     .header-content-playlist {
         color: rgb(255, 255, 255);
-        /* font-size: 24px; */
         font-size: 15px;
         font-weight: 700;
         font-family: 'font1';
@@ -575,7 +570,6 @@ header {
         width: 138px;
         margin-top: 15px;
         margin-left: 15px;
-        /* border-radius: 8px; */
         border-radius: 5px;
     }
 
@@ -659,32 +653,56 @@ header {
         font-family: 'font2';
         white-space: nowrap;
     }
+    .laptop-view-image-container{
+        display: none;
+    }
 
 
 }
 
 @media screen and (min-width: 1440px) {
 
-    /* .right-header{
-        width: 996px;
-    } */
+    .desktop-main-container {
+        width: 100%;
+    }
+
+    .desktop-container {
+        width: 100%;
+        height: 100%;
+    }
+
     .cookies-playlist-container {
-        height: 679px;
+        height: 100%;
     }
 
     .main-right-container {
-        width: 996px;
-        height: 843px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-tag span {
+        padding-top: 2px;
     }
 
     .preview-encloser-tag {
-        width: 1424px;
+        width: 100%;
+    }
+
+    .home-container {
+        height: 195px;
     }
 
     .right-header {
         background-color: rgba(0, 0, 0, .5);
-        /* background-color: #121212; */
         height: 64px;
+    }
+
+    .playlist-container {
+        height: 133px;
+    }
+
+    .playlist-content {
+        padding-top: 5px;
     }
 
     .arrow-side-bar {
@@ -692,7 +710,7 @@ header {
     }
 
     .sign-in-container {
-        padding-right: 25px;
+        padding-right: 32px;
     }
 
     .playlist-header {
@@ -706,8 +724,6 @@ header {
     }
 
     .show-contents span {
-        /* margin-top: -5px;
-        margin-right: -21px; */
         margin-right: -41px;
         white-space: nowrap;
         letter-spacing: 0.18px;
@@ -735,7 +751,7 @@ header {
     }
 
     .cookies-container {
-        padding-top: 180px;
+        padding-top: 189px;
     }
 
     .image-contents-playlist p {
@@ -744,8 +760,12 @@ header {
         letter-spacing: 0.05px;
     }
 
+    .podcast-container {
+        height: 135px;
+    }
+
     .search-bar-tag span {
-        margin-top: -1px;
+        margin-top: 0px;
     }
 
     .cookie-button {
@@ -770,11 +790,6 @@ header {
     .playlist-content {
         padding-left: 20px;
     }
-
-    /* .playlist-button {
-        width: 127px;
-        margin-top: 22px;
-    } */
 
     .library-content {
         display: flex;
@@ -806,36 +821,61 @@ header {
 
     .image-container-items {
         background-color: #1a1a1a;
+        height: 252px;
     }
 
     .search-bar-tag-image {
         padding-top: 0px;
     }
-    .preview-encloser-tag{
-        margin-top: 1px;
-    }
-    .text-content{
-        margin-top: 4px;
+
+    .preview-encloser-tag {
+        margin-top: -2px;
+        height: 65px;
     }
 
-     /* .side-right{
+    .preview-element-tag {
+        padding-top: 2px;
+    }
+
+    .paragraph-tag {
+        margin-top: -2px;
+    }
+
+    .text-content {
+        margin-top: 0px;
+    }
+
+    .button-preview-tag {
+        margin-top: -1px;
+    }
+
+    /* .side-right{
         color: internal light dark(rgba(16,16,16,0.3),rgba(255,255,255,0.3));
     } */
-    .image-contents-playlist span{
+    .image-contents-playlist span {
         margin-top: 4px;
     }
 
-    .arrow-side-bar{
-        /* color: rgb(179,179,179); */
-        color: rgb(0,0,0,0.7);
+    .arrow-side-bar {
+        color: rgb(0, 0, 0, 0.7);
+    }
+    .laptop-view-image-container{
+        display: none;
     }
 
-     
-   
-   
 
+}
 
+@media screen and (min-width:1600px) {
+    .main-right-container {
+        height: 890px;
+    }
 
-
+    .playlist-header{
+        width: 1360px;
+    }
+    .laptop-view-image-container{
+        display: flex;
+    }
 
 }

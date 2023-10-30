@@ -221,11 +221,8 @@ button img {
     border-bottom: 1px solid #EBEBEB;
     padding: 0px 27px;
     margin-top: 4px;
-    /* padding-top: 8px;
-    padding-left: 11px; */
     gap: 18px;
     box-shadow: 1px 3px 6px 1px #f7f7f7;
-    /* padding-bottom: 19px; */
 }
 
 .header-image-lists::-webkit-scrollbar {
@@ -234,8 +231,6 @@ button img {
 
 .image-logo-container {
     display: grid;
-    /* padding-left: 29px;
-    padding-top: 16px; */
     padding-bottom: 4px;
     padding-top: 12px;
     border-bottom: 2px solid black;
@@ -262,8 +257,6 @@ button img {
     padding-bottom: 4px;
     padding-top: 4px;
     color: rgb(113, 113, 113);
-    /* padding-left: 29px;
-    padding-top: 16px; */
 }
 
 .image-logo-mobile img {
@@ -277,8 +270,6 @@ button img {
     color: rgb(113, 113, 113);
     font-weight: 600;
     line-height: 16px;
-    /* padding-top: 4px;
-    margin-left: -12px; */
     font-family: font2;
     white-space: nowrap;
 }
@@ -315,8 +306,6 @@ button img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 17px;
-    margin-bottom: 2pc; */
     border-radius: 13px;
     display: flex;
     flex-direction: column;
@@ -507,7 +496,6 @@ button img {
     font-size: 17px;
     padding-top: 6px;
     text-decoration: underline;
-    /* display: flex; */
 }
 
 .prize-tag {
@@ -558,17 +546,12 @@ button img {
     background-color: #f7f7f7;
 }
 
-/* .footer-heading-container {
-    padding-block: 21px;
-    padding-inline: 24px;
-} */
 .footer-heading h2 {
     color: rgb(34, 34, 34);
     font-size: 22px;
     font-weight: 600;
     line-height: 26px;
     margin: 0px 0px 8px;
-    /* padding-left: 30px; */
 }
 
 .footer-heading-container {
@@ -580,11 +563,8 @@ button img {
 .footer-scroll {
     display: flex;
     overflow: scroll;
-    /* position: relative; */
-    /* padding-top: 24px; */
     gap: 29px;
     white-space: nowrap;
-    /* padding-left: 30px; */
     border-bottom: 1px solid rgb(221, 221, 221);
 }
 
@@ -592,11 +572,6 @@ button img {
     display: none;
 }
 
-/* .mobile-footer-begins {
-    padding-top: 46px;
-    margin-inline: -24px;
-    padding-left: 27px;
-} */
 
 .footer-scroll img {
     position: absolute;
@@ -619,7 +594,6 @@ button img {
 
 .footer-room-contents {
     padding-top: 32px;
-    /* padding-left: 18px; */
 }
 
 .room-content-type {
@@ -627,7 +601,6 @@ button img {
     grid-template-columns: 1fr 1fr;
     column-gap: 8px;
     row-gap: 24px;
-    /* padding-left: 22px; */
     padding-bottom: 30px;
 }
 
@@ -673,8 +646,6 @@ button img {
 }
 
 .support-page {
-    /* padding-left: 22px; */
-    /* padding-block: 7px; */
     display: grid;
     gap: 12px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -684,8 +655,6 @@ button img {
 .support-page h3 {
     font-size: 14px;
     font-weight: 600;
-    /* margin-block: 12px;
-    margin-bottom: 12px; */
     margin: 0px 0px 0px;
     font-family: font2;
     line-height: 18px;
@@ -693,7 +662,6 @@ button img {
 }
 
 .support-contents p {
-    /* padding-block: 6px; */
     font-size: 14px;
     font-weight: 400;
 }
@@ -748,7 +716,6 @@ button img {
 }
 
 .airbnb-home-contents p {
-    /* padding-block: 4px; */
     font-size: 14px;
     font-weight: 400;
 }
@@ -757,9 +724,7 @@ button img {
     display: flex;
     font-size: 14px;
     font-weight: 600;
-    /* padding-left: 14px; */
     gap: 12px;
-    /* padding-top: 18px; */
 }
 
 .footer-last-session {
@@ -784,8 +749,6 @@ button img {
 }
 
 .terms-conditions {
-    /* padding-left: 25px; */
-    /* padding-top: 13px; */
     font-size: 15px;
 }
 
@@ -793,9 +756,6 @@ button img {
     display: none;
 }
 
-.privacy-details {
-    /* padding-top: 3px; */
-}
 
 .footer-room-contents-tablet {
     display: none;
@@ -880,9 +840,6 @@ button img {
         margin-top: 24px;
     }
 
-    /* .tablet-emblem img {
-        /* padding-top: 24px;
-        margin-left: 40px; */
     .mobile-header-controls {
         width: 50%;
         padding-inline: 9px;
@@ -959,10 +916,6 @@ button img {
         margin-top: 17px;
         padding: 5px 5px 5px 12px;
         margin-left: 20px;
-        /* width: 35%; */
-        /* padding: 10px 12px 14px;
-        margin-left: 16px; */
-        /* margin-bottom: 22px; */
         height: 43px;
     }
 
@@ -996,16 +949,10 @@ button img {
         display: none;
     }
 
-    /* .tax-controller {
-        margin-block: 29px;
-        margin-inline: -154px;
-        width: 174%;
-    } */
     .list-items {
         display: flex;
         padding: 0px 40px;
         padding-top: 29px;
-        /* padding-top: 9px; */
     }
 
     .image-logo-tablet-container {
@@ -1083,12 +1030,7 @@ button img {
         height: 64px;
         width: 100%;
         margin-top: 10px;
-        /* margin-block: 27px;
-        margin-inline: 42px; */
         border-radius: 12px;
-        /* width: 174%;
-        margin-block: 27px;
-        margin-inline: -154px; */
     }
 
     .display-tax-text {
@@ -1122,21 +1064,17 @@ button img {
         border: 2px solid black;
         border-radius: 23px;
         padding-left: 4px;
-        /* .icon-bar-tick border: 1px solid black; */
         border-radius: 13px;
         padding-top: 7px;
         background: white;
     }
 
     .post-card-image {
-        /* padding-left: 37px; */
         width: 43vw;
         height: 41vw;
     }
 
     .post-card-image img {
-        /* width: 43vw;
-        height: 42vw; */
         width: 100%;
         height: 100%;
         margin-top: 0px;
@@ -1166,12 +1104,6 @@ button img {
         padding-left: 7px;
     }
 
-    /* .tick-bar {
-        width: 67%;
-    }
-    .icon-bar-tick {
-        width: 5%;
-    } */
     .tax-container-cards {
         display: grid;
         box-sizing: border-box;
@@ -1189,12 +1121,8 @@ button img {
         row-gap: 40px;
         margin-top: -16px;
         column-gap: 20px;
-        /* margin-left: -10px; */
     }
 
-    /* .tax-controller {
-        grid-column: 2/4;
-    } */
     .hero-banner-cards {
         grid-column: span 2;
     }
@@ -1221,7 +1149,6 @@ button img {
         grid-template-columns: 1fr 1fr;
         column-gap: 8px;
         row-gap: 24px;
-        /* padding-left: 22px; */
     }
 
     .main-footer {
@@ -1278,36 +1205,18 @@ button img {
         line-height: 20.02px;
     }
 
-    .support-contents p {
-        /* letter-spacing: 0.28px; */
-    }
-
     .hosting-page {
-        /* padding-bottom: 28px;
-        padding-left: 38px; */
         line-height: 20.02px;
-    }
-
-    .hosting-contents p {
-        /* letter-spacing: 0.28px; */
     }
 
     .airbnb-home {
-        /* padding-left: 37px;
-        padding-block: 5px; */
         padding-block: 21px;
         line-height: 20.02px;
-    }
-
-    .airbnb-home-contents p {
-        /* letter-spacing: 0.49px; */
     }
 
     .footer-last-session {
         display: grid;
         justify-content: center;
-        /* padding-bottom: 23px;
-        padding-right: 49px; */
     }
 
     .privacy-details {
@@ -1319,11 +1228,9 @@ button img {
 
     .terms-conditions p {
         padding-left: 92px;
-        /* padding-top: 4px; */
     }
 
     .currency-footer {
-        /* padding-left: 19px; */
         margin-bottom: 0px;
         margin-left: 9px;
     }
@@ -1379,8 +1286,6 @@ button img {
     }
 
     .icon-emblems {
-        /* padding: 10px 12px 11px;
-        margin-left: 0px; */
         padding: 5px 10px;
         margin-left: 0px;
         width: 73px;
@@ -1424,7 +1329,6 @@ button img {
         font-weight: 400;
         padding-right: 15px;
         padding-top: 1px;
-        /* padding: 2px 13px; */
     }
 
     .add-guest img {
@@ -1481,9 +1385,6 @@ button img {
     }
 
     .tax-controller {
-        /* margin-inline: -303px;
-        width: 178%;
-        grid-column: 3/6; */
         width: 100%;
     }
 
@@ -1552,7 +1453,6 @@ button img {
     .footer-content-containers {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* padding-inline: 40px; */
     }
 
     .footer-heading h2 {
@@ -1585,9 +1485,6 @@ button img {
         padding-block: 44px;
     }
 
-    /* .hosting-page h3{
-        margin-block: 12px;
-    } */
     .airbnb-home {
         padding-block: 44px;
     }
@@ -1654,7 +1551,6 @@ button img {
 
     .emblem-icon-desktop {
         display: flex;
-        /* width: 100%; */
         height: 100%;
         flex: 0 0 279px;
     }
@@ -1674,18 +1570,13 @@ button img {
 
     .tablet-emblem button {
         width: 27%;
-        /* margin-left: auto; */
+        margin-left: auto;
         margin-right: auto;
         box-sizing: border-box;
         text-align: center;
         padding: 0px 10px;
         height: 48px;
         padding-top: 6px;
-        margin-left: 186px;
-    }
-
-    .add-guest p {
-        /* padding: 2px 17px; */
     }
 
     .add-guest img {
@@ -1694,7 +1585,6 @@ button img {
     }
 
     .tablet-list-items {
-        /* gap: 32px; */
         margin-left: -2px;
         padding-left: 0px;
     }
@@ -1745,7 +1635,6 @@ button img {
     }
 
     .tax-container-cards {
-        /* margin: 16px 0px 48px; */
         margin-top: 184px;
         padding: 0px 80px;
     }
@@ -1783,7 +1672,6 @@ button img {
 
     .card-contents p {
         font-size: 15px;
-        /* line-height: 13px; */
     }
 
     .prize-tag {
@@ -1803,7 +1691,7 @@ button img {
 
     .wishlist-icon {
         top: 16px;
-        left: 262px;
+        left: 282px;
     }
 
     .card-blog {
@@ -1816,8 +1704,8 @@ button img {
     }
 
     .fixed-button button {
-        top: 1060px;
-        left: 693px;
+        top: 989px;
+        left: 707px;
         width: 27%;
         padding-left: 7px;
         padding-top: 14px;
@@ -1958,13 +1846,10 @@ button img {
         flex-direction: row-reverse;
         padding-left: 42px;
         padding-bottom: 0px;
-        /* margin-top: 4px; */
     }
 
     .terms-conditions {
         display: flex;
-        /* padding-top: 9px; */
-        /* letter-spacing: 0.48px; */
         font-size: 14px;
         gap: 17px;
         margin-left: -133px;
@@ -1994,6 +1879,36 @@ button img {
     .media-icons {
         padding-left: 10px;
         padding-bottom: 3px;
+    }
+
+}
+
+@media screen and (min-width:1600px) {
+    .tablet-emblem button {
+        width: 21%;
+    }
+
+    .fixed-button button {
+        width: 22%;
+        top: 1040px;
+        left: 900px;
+    }
+
+    .filters {
+        width: 6%;
+    }
+
+    .wishlist-icon {
+        top: 16px;
+        left: 350px;
+    }
+
+    .arrow-bar {
+        width: 2%;
+    }
+
+    .icon-bar-tick {
+        width: 6%;
     }
 
 }

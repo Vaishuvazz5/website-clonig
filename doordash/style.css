@@ -70,20 +70,20 @@
 .personal-privacy-contents {
     display: none;
 }
-.doordash-code{
+
+.doordash-code {
     display: none;
 }
-.package-one-content-desktop-image{
+
+.package-one-content-desktop-image {
     display: none;
 }
-.package-one-content-image{
+
+.package-one-content-image {
     display: flex;
 }
 
 .fixed-control-tag {
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 100;
     background-color: rgb(255, 255, 255);
     padding: 12px 12px;
@@ -157,7 +157,6 @@
 header {
     position: absolute;
     top: 16px;
-    /* right: 24px; */
 }
 
 .sign-tags {
@@ -213,13 +212,10 @@ header {
 
 .emblem-container {
     display: flex;
-    /* position: absolute; */
     align-items: center;
     height: 100%;
     justify-content: center;
     padding-left: 25px;
-    /* top: 143px;
-    right: 158px; */
 }
 
 .header-heading {
@@ -232,10 +228,6 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-left: 25px;
-    /* position: absolute;
-    right: 83px;
-    top: 195px;
-    width: 207px; */
 }
 
 .search-button {
@@ -264,7 +256,6 @@ header {
     padding-right: 63px;
     padding-top: 1px;
     font-size: 16px;
-    /* color: rgb(25, 25, 25); */
     color: rgb(133, 133, 133);
     font-weight: 500;
     font-family: 'font';
@@ -346,7 +337,6 @@ header {
     font-family: 'font';
     letter-spacing: -0.04ch;
     padding-top: 4px;
-    /* margin-bottom: 19px; */
 }
 
 .google-play-services p {
@@ -354,7 +344,6 @@ header {
     font-size: 14px;
     font-weight: 600;
     font-family: 'font2';
-    /* margin-bottom: 3px; */
     padding-top: 8px;
 }
 
@@ -369,7 +358,6 @@ header {
     display: flex;
     justify-content: center;
     gap: 7px;
-    /* padding-top: 7px; */
     align-items: center;
     margin-top: 9px;
     padding-left: 10px;
@@ -448,21 +436,12 @@ header {
     padding-left: 6px;
 }
 
-/* .cravings-pass{
-   
-} */
 .cravings-contents img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
 
-/* .main-cravings-content{
-    background-color: rgb(254, 241, 238);
-}
-.cravings-contents {
-
-} */
 .main-cravings-delivery {
     position: relative;
     display: flex;
@@ -532,9 +511,6 @@ header {
     margin-top: 20px;
 }
 
-/* .cravings-contents{
-    background-color: rgb(254, 241, 238);
-} */
 .delivery-pass img {
     width: 100%;
     height: 180px;
@@ -587,8 +563,6 @@ header {
 }
 
 .image-filter img {
-    /* background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png') ; */
-    /* position: relative; */
     height: 350px;
     width: 375px;
     background-color: rgba(30, 30, 30, 0.6);
@@ -738,7 +712,6 @@ header {
     box-sizing: border-box;
     padding: 20px;
     width: 100%;
-    /* justify-content: center; */
 }
 
 .package-one-content img {
@@ -746,12 +719,15 @@ header {
     height: 180px;
     object-fit: cover;
 }
-.package-one-content-desktop-image{
+
+.package-one-content-desktop-image {
     display: flex;
 }
-.package-one-content-image{
+
+.package-one-content-image {
     display: none;
 }
+
 .package-home-contents h2 {
     font-size: 24px;
     font-weight: 700;
@@ -759,7 +735,6 @@ header {
     letter-spacing: -0.01ch;
     color: rgb(25, 25, 25);
     font-family: 'font';
-    /* width:65vw; */
     margin-top: 20px;
     text-align: center;
     display: flex;
@@ -782,7 +757,6 @@ header {
 
 .package-home-button {
     background-color: rgb(235, 23, 0);
-    /* text-align: center; */
     border-radius: 24px;
     color: rgb(255, 255, 255);
     width: 150px;
@@ -861,7 +835,6 @@ header {
     background-color: rgb(235, 23, 0);
     color: rgb(255, 255, 255);
     border-radius: 24px;
-    /* display: flex; */
     width: 136px;
     height: 32px;
 }
@@ -879,7 +852,6 @@ header {
     align-items: center;
     padding: 20px;
     padding-bottom: 7px;
-    /* background-color: rgb(254, 241, 238); */
 }
 
 .image-dash-bar img {
@@ -914,7 +886,6 @@ header {
     background-color: rgb(235, 23, 0);
     color: rgb(255, 255, 255);
     border-radius: 24px;
-    /* display: flex; */
     width: 136px;
     height: 32px;
 }
@@ -926,9 +897,6 @@ header {
     padding-top: 6px;
 }
 
-/* .main-dash-container{
-    background-color:rgb(254, 241, 238) ;
-} */
 .main-dash-container {
     position: relative;
     display: flex;
@@ -1006,6 +974,9 @@ header {
     color: rgb(196, 196, 196);
     font-family: 'font1';
 }
+.top-city-cuisines-tag{
+    display: flex;
+}
 
 .top-cuisines-tag {
     text-align: center;
@@ -1031,6 +1002,7 @@ header {
     justify-content: space-between;
     gap: 25px;
 }
+
 .most-cuisines-contents {
     display: flex;
     flex-direction: column;
@@ -1065,7 +1037,6 @@ header {
     color: rgb(255, 255, 255);
     font-family: 'font1';
     margin-bottom: 8px;
-    /* width: 42vw; */
 }
 
 .top-popular-container {
@@ -1245,10 +1216,6 @@ header {
     align-items: center;
 }
 
-.logo-emblem-footer img {
-    /* padding-left: 9px; */
-}
-
 .field {
     border: none;
     padding-left: 4px;
@@ -1330,20 +1297,9 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
 
     .fixed-control-tag {
-        /* padding: 16px 48px; */
         padding: 16px 13px;
     }
 
@@ -1408,20 +1364,17 @@ header {
     .privacy-child-contents {
         display: none;
     }
-    .package-one-content-image{
+
+    .package-one-content-image {
         display: none;
     }
-    .package-one-content-desktop-image{
+
+    .package-one-content-desktop-image {
         display: flex;
     }
 
     header {
-        /* display: flex;
-        row-gap: 8px;
-        justify-content: flex-end; */
         padding-right: 24px;
-        /* top: 16px; */
-        /* right: -25px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1438,12 +1391,10 @@ header {
 
     .emblem-tag {
         display: flex;
-        /* align-self: center;
-        margin-right: 161px; */
-        justify-content: center;
+        margin-right: 161px;
+        */ justify-content: center;
         align-items: center;
         width: 50.5%;
-        /* margin-left: -63px; */
     }
 
     .sign-in-tag {
@@ -1459,9 +1410,6 @@ header {
         padding-left: 0px;
     }
 
-    .sign-tags {
-        /* margin-left: 160px; */
-    }
 
     .sign-up-tag {
         width: 86px;
@@ -1476,13 +1424,6 @@ header {
         padding-left: 0px;
     }
 
-    /* .header-text-container { */
-    /* padding-top: 0px; */
-
-
-    /* .emblem-tag{
-        display: flex;
-    } */
     .header-heading {
         padding-top: 4px;
         padding-left: 93px;
@@ -1528,8 +1469,6 @@ header {
     .dasher-component {
         padding: 16px;
         display: flex;
-        /* width: 100%;
-        min-width: 360px; */
     }
 
     .dasher-component img {
@@ -1582,7 +1521,6 @@ header {
     }
 
     .cravings-contents-desktop-image img {
-        /* width: 100%; */
         height: 500px;
         object-fit: cover;
         width: 293px;
@@ -1698,8 +1636,6 @@ header {
     }
 
     .store-contents {
-        /* padding-left: 86px;
-        padding-bottom: 43px; */
         width: 100%;
         padding-bottom: 19px;
 
@@ -1712,18 +1648,15 @@ header {
         font-weight: 700;
         letter-spacing: -0.02ch;
         width: 50vw;
-        /* margin-left: auto; */
     }
 
     .store-contents span {
         font-size: 24px;
         line-height: 32px;
         letter-spacing: -0.01ch;
-        /* margin-left: auto; */
     }
 
     .store-contents p {
-        /* margin-left: auto; */
         font-weight: 400;
         width: 68vw;
         line-height: 22px;
@@ -1732,8 +1665,6 @@ header {
         font-size: 16px;
         font-family: 'font1';
     }
-
-
 
     .store-button {
         width: 138px;
@@ -1779,7 +1710,8 @@ header {
         font-weight: 500;
         margin-top: 12px;
     }
-    .package-tag{
+
+    .package-tag {
         padding: 64px 20px 20px;
     }
 
@@ -1801,7 +1733,6 @@ header {
         transform: translate(10px, 38px);
         margin-top: -23px;
         margin-right: 10px;
-        /* margin-top: 18px; */
     }
 
     .main-body-content-container {
@@ -1890,7 +1821,8 @@ header {
         justify-content: space-between;
         width: 100%;
     }
-    .unlock-content-desktop-image{
+
+    .unlock-content-desktop-image {
         display: flex;
     }
 
@@ -1903,7 +1835,6 @@ header {
     }
 
     .unlock-dash-content {
-        /* margin-inline: auto; */
         margin-left: -19px;
         margin-bottom: 52px;
     }
@@ -1946,7 +1877,8 @@ header {
         flex-direction: row;
         gap: 60px;
     }
-    .image-dash-bar-desktop-image{
+
+    .image-dash-bar-desktop-image {
         display: flex;
     }
 
@@ -1983,13 +1915,12 @@ header {
         font-family: 'font';
     }
 
-    .bussiness-dash-content {
-        /* margin-top: 43px; */
-    }
-
     .footer-starting-contents {
         display: flex;
         flex-direction: column;
+    }
+    .top-city-cuisines-tag{
+        display: block;
     }
 
     .top-city-container {
@@ -2107,9 +2038,7 @@ header {
     .inline-container {
         display: flex;
         justify-content: center;
-        /* width: 54%; */
         width: auto;
-        /* gap: 4px; */
         margin-top: 0px;
         margin-left: -12px;
     }
@@ -2159,31 +2088,24 @@ header {
         padding-inline: 15px;
         margin-block: -18px;
     }
-    .media-emblems{
+
+    .media-emblems {
         padding-bottom: 2px;
         gap: 12px;
     }
-    .input-logo-contents{
+
+    .input-logo-contents {
         margin-inline: -3px;
     }
-    .logo-footer{
+
+    .logo-footer {
         padding-top: 30px;
         gap: 5px;
     }
-    .inline-image{
+
+    .inline-image {
         margin-inline: -4px;
     }
-    
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -2191,8 +2113,8 @@ header {
 
 
 @media screen and (min-width:1024px) {
-    .fixed-control-tag{
-        padding: 16px 48px; 
+    .fixed-control-tag {
+        padding: 16px 48px;
     }
 
     .background-image {
@@ -2218,10 +2140,12 @@ header {
     .personal-contents-desktop {
         display: none;
     }
-    .package-one-content-image{
+
+    .package-one-content-image {
         display: none;
     }
-    .package-one-content-desktop-image{
+
+    .package-one-content-desktop-image {
         display: flex;
     }
 
@@ -2299,7 +2223,8 @@ header {
         object-fit: cover;
         margin-top: 21px;
     }
-    .delivery-contents{
+
+    .delivery-contents {
         padding-top: 18px;
     }
 
@@ -2370,7 +2295,8 @@ header {
         width: 40vw;
         font-family: 'font1';
     }
-    .unlock-button p{
+
+    .unlock-button p {
         font-family: 'font';
     }
 
@@ -2388,15 +2314,12 @@ header {
         width: 39vw;
     }
 
-    .bussiness-dash-content {
-        /* margin-top: 54px; */
-    }
-
     .top-city-container {
         gap: 80px;
         padding-top: 10px;
     }
-    .most-recent-contents{
+
+    .most-recent-contents {
         gap: 9px;
     }
 
@@ -2465,63 +2388,71 @@ header {
         width: auto;
         margin-left: auto;
     }
-    .promoting-tag{
+
+    .promoting-tag {
         margin-right: -4px;
     }
-    .input-container{
+
+    .input-container {
         margin-top: -13px;
     }
-    .most-popular-contents{
+
+    .most-popular-contents {
         gap: 8px;
         padding-top: 0px;
     }
-    .top-popular-tag h2{
+
+    .top-popular-tag h2 {
         margin-bottom: 6px;
     }
-    .inline-code-image{
+
+    .inline-code-image {
         display: flex;
     }
-    .doordash-code{
+
+    .doordash-code {
         display: flex;
         padding-left: 12px;
     }
-    .background-path{
+
+    .background-path {
         top: 44%;
     }
-    .doorstep-tag p{
+
+    .doorstep-tag p {
         width: 36vw;
     }
-    .package-home-contents p{
+
+    .package-home-contents p {
         width: 45vw;
         margin-top: 20px;
     }
-    .package-home-button{
+
+    .package-home-button {
         height: 36px;
         margin-top: 33px;
     }
-    .package-home-button p{
+
+    .package-home-button p {
         margin-top: 5px;
     }
-    .unlock-tag{
+
+    .unlock-tag {
         padding: 58px 20px 40px;
     }
-    .unlock-content{
+
+    .unlock-content {
         padding-top: 40px;
         padding-inline: 20px;
     }
-    .unlock-dash-content{
+
+    .unlock-dash-content {
         margin-bottom: 35px;
     }
-    .image-dash-container{
+
+    .image-dash-container {
         top: 45%;
     }
-   
-
-
-
-
-
-
 
 
 }
@@ -2532,8 +2463,8 @@ header {
 @media screen and (min-width:1440px) {
 
     .background-image {
-        width: 1440px;
         height: 650px;
+        width: 100%;
     }
 
     .arrow-bar {
@@ -2604,8 +2535,6 @@ header {
     }
 
     .dasher-component img {
-        /* margin: 0px 64px 0px 0px; */
-        margin-left: 50px;
         display: flex;
         justify-content: center;
         width: 154px;
@@ -2634,6 +2563,7 @@ header {
 
     .dasher-earnings span {
         font-size: 18px;
+        white-space: nowrap;
     }
 
     .cravings-contents-desktop-image img {
@@ -2665,7 +2595,7 @@ header {
     }
 
     .image-filter img {
-        width: 1440px;
+        width: 100%;
     }
 
     .store-contents h2 {
@@ -2768,7 +2698,6 @@ header {
         display: flex;
         white-space: nowrap;
         width: auto;
-        /* margin-inline: -1px; */
         margin-left: -11px;
     }
 
@@ -2777,7 +2706,6 @@ header {
         flex-direction: row;
         gap: 0px;
         padding-left: 0px;
-        /* gap: 65px; */
     }
 
     .footer-container {
@@ -2793,7 +2721,6 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* margin-right: 61px; */
         gap: 11px;
         padding-bottom: 35px;
     }
@@ -2810,28 +2737,39 @@ header {
         gap: 163px;
         padding-left: 96px;
     }
-    .figuring-tag{
+
+    .figuring-tag {
         padding-bottom: 36px;
     }
-    .promoting-tag{
+
+    .promoting-tag {
         margin-right: 4px;
     }
-    .top-popular-tag{
+
+    .top-popular-tag {
         margin-right: 0px;
         padding: 32px 0px;
     }
-    .input-container{
-        padding-inline:46px;
-        margin-bottom:-15px;
+
+    .input-container {
+        padding-inline: 46px;
+        margin-bottom: -15px;
     }
-    .media-emblems{
+
+    .media-emblems {
         padding-bottom: 11px;
     }
-    .top-cuisines-tag{
+
+    .top-cuisines-tag {
         padding-top: 50px;
     }
-    .top-cuisines-tag h2{
+
+    .top-cuisines-tag h2 {
         padding-left: 96px;
+    }
+
+    .top-city-cuisines-tag {
+        display: flex;
     }
 
 
