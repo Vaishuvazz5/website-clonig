@@ -570,8 +570,8 @@ header {
 }
 
 .wishlist {
-    padding-top: 19px;
-    padding-right: 14px;
+    padding-top: 21px;
+    padding-right: 12px;
 }
 
 .main-desktop-body-container {
@@ -604,17 +604,21 @@ header {
         padding-bottom: 10px;
         padding-top: 32px;
     }
-    .canvas-contents{
+
+    .canvas-contents {
         gap: 3px;
     }
-    .canvass-mobile{
+
+    .canvass-mobile {
         display: flex;
         gap: 15px;
     }
-    .canvas-plus-image{
+
+    .canvas-plus-image {
         margin-top: 2px;
     }
-    .rating-off-tag{
+
+    .rating-off-tag {
         padding-left: 1px;
         padding-top: 1px;
     }
@@ -643,7 +647,7 @@ header {
         margin-top: 0px;
     }
 
-  
+
     .mobile-contents {
         height: auto;
     }
@@ -788,7 +792,7 @@ header {
 
     .login-bar-tag a {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
         font-family: 'font2';
         letter-spacing: 0.1px;
         line-height: 20px;
@@ -803,12 +807,12 @@ header {
         color: rgb(240, 240, 240);
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 11px;
+        padding-top: 11px;
     }
 
     .seller-content-tag span {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
         letter-spacing: 0.1px;
         line-height: 20px;
         font-family: 'font2';
@@ -820,7 +824,7 @@ header {
         box-sizing: border-box;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 10px;
+        padding-top: 10px;
         display: flex;
         gap: 4px;
     }
@@ -1109,7 +1113,8 @@ header {
         line-height: 18.2px;
         font-family: 'font2';
     }
-    .icon-chevron{
+
+    .icon-chevron {
         transform: rotate(90deg);
     }
 
@@ -1287,9 +1292,9 @@ header {
 
     .chevron-icon-down {
         color: rgb(135, 135, 135);
-       padding-right: 0px;
-       padding-top: 0px;
-       transform: rotate(90deg);
+        padding-right: 0px;
+        padding-top: 0px;
+        transform: rotate(90deg);
     }
 
     .list-items {
@@ -1328,11 +1333,13 @@ header {
         font-family: 'font2';
         white-space: nowrap;
     }
-    .chevron-up-internal{
+
+    .chevron-up-internal {
         padding-right: 15px;
         transform: rotate(-90deg);
     }
-    .icon-left-bar{
+
+    .icon-left-bar {
         transform: rotate(180deg);
     }
 
@@ -1424,7 +1431,7 @@ header {
     }
 
     .desktop-filter-mobiles {
-        height: 7179px;
+        height: 7116px;
         width: 270px;
     }
 
@@ -1452,7 +1459,8 @@ header {
         line-height: 16.8px;
         font-family: 'font2';
     }
-    .home-bar{
+
+    .home-bar {
         transform: rotate(180deg);
     }
 
@@ -1933,7 +1941,7 @@ header {
     }
 
     .review-image-tag {
-        width: 83px;
+        width: 77px;
         height: 150px;
         margin-left: 70px;
         margin-right: 51px;
@@ -2292,6 +2300,16 @@ header {
         text-align: left;
     }
 
+    .table-data-content {
+        width: 606px;
+        padding-left: 5px;
+    }
+
+    .table-data-price {
+        width: 167px;
+        padding-left: 4px;
+    }
+
     td a {
         color: rgb(40, 116, 240);
         font-size: 11px;
@@ -2314,7 +2332,7 @@ header {
         font-weight: 700;
         line-height: 16px;
         border-bottom: 1px solid #e0e0e0;
-        font-family: 'font1';
+        font-family: 'font2';
         text-align: left;
     }
 
@@ -2326,17 +2344,17 @@ header {
         font-family: 'font';
         padding: 10px 0px;
         padding-bottom: 13px;
-      
+
     }
 
-    .question-type  {
+    .question-type {
         font-size: 12px;
         font-weight: 400;
         line-height: 16px;
         font-family: 'font2';
     }
 
-    .answer-type{
+    .answer-type {
         font-size: 12px;
         font-family: 'font2';
         line-height: 16px;
@@ -2501,7 +2519,8 @@ header {
         justify-content: center;
         padding-right: 0px;
     }
-    .feature-types{
+
+    .feature-types {
         padding-left: 21px;
     }
 
@@ -2528,16 +2547,19 @@ header {
     .review-contents {
         width: 100%;
     }
-    .chevron-gap{
+
+    .chevron-gap {
         color: #878787;
         padding-top: 17px;
         padding-left: 2px;
         transform: rotate(270deg);
     }
-    .home-bar{
+
+    .home-bar {
         transform: rotate(180deg);
     }
-    .list-items-ram{
+
+    .list-items-ram {
         padding-top: 15px;
     }
 
@@ -2561,13 +2583,168 @@ header {
 
 @media screen and (min-width:1600px) {
 
-    .tablet-header-tag{
+    .tablet-header-tag {
         display: flex;
-        gap: 12px;
+        gap: 6px;
+        padding-left: 106px;
     }
 
-    .cart-content-tag span{
+    .search-bar-tag {
+        margin-left: -13px;
+        width: 564px;
+    }
+
+    .cart-content-tag span {
         padding-top: 1px;
     }
-    
+
+    .assure-main-container {
+        padding-left: 92px;
+    }
+
+    .real-content {
+        gap: 8px;
+    }
+
+    .offer-container {
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+
+    .assure-image-container {
+        margin-top: 1px;
+        margin-left: -3px;
+    }
+
+    .wishlist-icon {
+        padding-top: 2px;
+    }
+
+    .nav-mobile-items {
+        padding-top: 3px;
+    }
+
+    .nav-list-contents {
+        margin-top: 12px;
+    }
+
+    .product-nav-bar {
+        margin-top: -1px;
+    }
+
+    .main-body-container-desktop {
+        margin: 0 auto;
+        min-width: 978px;
+        width: 100%;
+    }
+
+    .main-desktop-body-container {
+        margin-left: 78px;
+        max-width: 1679px;
+
+    }
+
+    .internal-section {
+        padding-top: 21px;
+    }
+
+    .chevron-up-internal {
+        padding-right: 6px;
+        padding-left: 5px;
+    }
+
+    .smart-header {
+        padding-top: 1px;
+    }
+
+    .filter-section {
+        padding-top: 21px;
+        font-size: 17px;
+    }
+
+    .price-section {
+        padding-top: 14px;
+    }
+
+    .text-accessory {
+        padding-top: 4px;
+    }
+
+    .category-section {
+        padding-top: 15px;
+    }
+
+    .brand-section {
+        padding-top: 17px;
+    }
+
+    .chevron-left {
+        padding-top: 0px;
+    }
+
+    .mobile-header-contents {
+        padding-top: 12px;
+    }
+
+    .mobile-details {
+        padding-top: 10px;
+    }
+
+    .feature-types {
+        gap: 0px;
+    }
+
+    .footer-section-contents {
+        margin-left: -49px;
+    }
+
+    .review-body-contents {
+        gap: 101px;
+    }
+
+    .ul-review-items p {
+        padding-bottom: 6px;
+        width: 20vw;
+    }
+
+    .row-section-comment {
+        width: 22vw;
+    }
+
+    .table-data-content {
+        width: 684px;
+    }
+
+    .table-data-price {
+        width: 189px;
+    }
+
+    .main-review-container {
+        max-width: 1679px;
+    }
+
+    .login-bar-tag {
+        margin-left: 35px;
+        margin-right: 8px;
+    }
+
+    .cart-content-tag {
+        margin-right: 0px;
+        padding-right: 65px;
+    }
+
+    .flipkart-memo {
+        padding-right: 19px;
+    }
+
+    .solution-type-container {
+        padding-bottom: 11px;
+    }
+
+   
+
+
+
+
+
 }
