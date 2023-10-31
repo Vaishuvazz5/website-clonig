@@ -2558,3 +2558,16 @@ header {
 
 
 }
+
+@media screen and (min-width:1600px) {
+
+    .tablet-header-tag{
+        display: flex;
+        gap: 12px;
+    }
+
+    .cart-content-tag span{
+        padding-top: 1px;
+    }
+    
+}
