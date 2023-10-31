@@ -29,6 +29,14 @@
     src: url('https://encore.scdn.co/fonts/CircularSpTitle-Black-3f9afb402080d53345ca1850226ca724.woff2');
 }
 
+.image-container-items-desktop {
+    display: none;
+}
+
+.image-container-items-laptop {
+    display: none;
+}
+
 .desktop-main-container {
     display: none;
 }
@@ -653,7 +661,8 @@ header {
         font-family: 'font2';
         white-space: nowrap;
     }
-    .laptop-view-image-container{
+
+    .laptop-view-image-container {
         display: none;
     }
 
@@ -664,6 +673,10 @@ header {
 
     .desktop-main-container {
         width: 100%;
+    }
+
+    .image-container-items-desktop {
+        display: flex;
     }
 
     .desktop-container {
@@ -699,10 +712,33 @@ header {
 
     .playlist-container {
         height: 133px;
+        padding-bottom: 5px;
     }
 
     .playlist-content {
+        padding-top: 4px;
+    }
+
+    .playlist-content p {
+        margin-top: -3px;
+    }
+
+    .playlist-button {
+        margin-top: -3px;
+    }
+
+    .podcast-button {
+        margin-top: -6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .podcast-contents p {
         padding-top: 5px;
+    }
+
+    .cookies-container {
+        padding-top: 135px;
     }
 
     .arrow-side-bar {
@@ -749,6 +785,32 @@ header {
         margin-top: 16px;
         margin-left: 16px;
     }
+
+    .image-container-items-desktop img {
+        margin-right: 16px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .image-container-items-desktop {
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        height: 261px;
+        border-radius: 8px;
+        margin-left: 17px;
+        margin-top: 21px;
+    }
+
+    .image-container-items-desktop img {
+        height: 138px;
+        width: 138px;
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+
 
     .cookies-container {
         padding-top: 189px;
@@ -800,18 +862,19 @@ header {
     .library-content span {
         margin-block: 2px;
         padding-left: 12px;
+        margin-top: 0px;
     }
 
     .library-content img {
-        padding-top: 5px;
+        padding-top: 2px;
     }
 
     .search-bar-tag {
-        padding-top: 19px;
+        padding-top: 20px;
     }
 
     .home-tag-image {
-        padding-top: 1px;
+        padding-top: 2px;
     }
 
     .image-contents-playlist {
@@ -824,13 +887,19 @@ header {
         height: 252px;
     }
 
+    .image-container-items-desktop {
+        background-color: #1a1a1a;
+        height: 252px;
+    }
+
+
     .search-bar-tag-image {
         padding-top: 0px;
     }
 
     .preview-encloser-tag {
-        margin-top: -2px;
-        height: 65px;
+        margin-top: 0px;
+        height: 66px;
     }
 
     .preview-element-tag {
@@ -859,7 +928,8 @@ header {
     .arrow-side-bar {
         color: rgb(0, 0, 0, 0.7);
     }
-    .laptop-view-image-container{
+
+    .laptop-view-image-container {
         display: none;
     }
 
@@ -867,15 +937,59 @@ header {
 }
 
 @media screen and (min-width:1600px) {
+
     .main-right-container {
         height: 890px;
     }
 
-    .playlist-header{
-        width: 1360px;
-    }
-    .laptop-view-image-container{
+    .image-container-items-laptop {
         display: flex;
     }
+
+    .playlist-header {
+        width: 1360px;
+    }
+
+    .laptop-view-image-container {
+        display: flex;
+    }
+
+    .preview-encloser-tag {
+        width: 1835px;
+    }
+
+    .image-container-items {
+        width: 202px;
+        height: 253px;
+    }
+
+    .image-container-items-laptop img {
+        margin-right: 16px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .image-container-items-laptop {
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        width: 252px;
+        height: 253px;
+        border-radius: 8px;
+        margin-left: 17px;
+        margin-top: 21px;
+    }
+
+    .image-container-items-laptop img {
+        height: 138px;
+        width: 138px;
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+
+
+
+
 
 }
