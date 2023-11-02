@@ -94,7 +94,7 @@ header {
     width: 100%;
     height: 48px;
     box-sizing: border-box;
-    margin-top: -1px;
+    margin-top: 0px;
     border-bottom: 1px solid rgb(220, 223, 230);
 }
 
@@ -165,7 +165,7 @@ header {
     margin-top: 8px;
     padding-top: 3px;
     padding-left: 6px;
-    padding-right: 8px;
+    /* padding-right: 8px; */
     height: 40px;
     width: 99px;
     border-radius: 4px;
@@ -186,8 +186,9 @@ header {
     font-size: 11px;
     font-weight: 400;
     font-family: 'font';
-    padding-top: 2px;
+    padding-top: 0px;
     padding-left: 8px;
+    line-height: 17px;
 }
 
 .triangle-layout {
@@ -221,7 +222,7 @@ header {
     font-weight: 400;
     font-family: 'font';
     padding-top: 10px;
-    padding-left: 7px;
+    padding-left: 8px;
 }
 
 .triangle-currency {
@@ -233,9 +234,9 @@ header {
     margin-top: 8px;
     padding-left: 7px;
     padding-top: 2px;
-    padding-right: 8px;
+    /* padding-right: 8px; */
     height: 40px;
-    width: 112px;
+    width: 115px;
     border-radius: 4px;
 }
 
@@ -255,8 +256,9 @@ header {
     font-size: 11px;
     font-weight: 400;
     font-family: 'font';
-    padding-top: 2px;
-    padding-left: 3px;
+    padding-top: 1px;
+    padding-left: 8px;
+    line-height: 17px;
 }
 
 .mobile-contents {
@@ -632,8 +634,8 @@ header {
     }
 
     .hero-header {
-        margin-top: -2px;
-        padding-right: 4px;
+        margin-top: -1px;
+        padding-right: 0px;
     }
 
     .mi-wishlist-content {
@@ -702,12 +704,13 @@ header {
         height: 56px;
         justify-content: center;
         padding-top: 7px;
-        padding-left: 127px;
+        padding-left: 138px;
         padding-right: 9px;
     }
 
     .flipkart-memo {
         padding-top: 4px;
+        padding-right: 5px;
     }
 
     .image-memo-tag {
@@ -756,7 +759,7 @@ header {
         width: 304px;
         justify-content: flex-start;
         margin-top: 3px;
-        margin-left: 21px;
+        margin-left: 6px;
         padding-top: 4px;
         padding-left: 2px;
     }
@@ -990,7 +993,7 @@ header {
     .price-section {
         border-bottom: 1px solid rgb(240, 240, 240);
         padding-left: 16px;
-        padding-top: 16px;
+        padding-top: 14px;
         padding-bottom: 16px;
         padding-right: 16px;
     }
@@ -1007,6 +1010,7 @@ header {
     .background-color-tag {
         display: flex;
         padding-top: 3px;
+        align-items: flex-end;
     }
 
     .inline-color {
@@ -1037,8 +1041,10 @@ header {
         height: 13px;
         width: 13px;
         position: absolute;
-        top: -2px;
-        left: -9px;
+        top: -3px;
+        left: -6px;
+        background-color: white;
+        z-index: 100;
     }
 
     .circle-zero {
@@ -1050,6 +1056,10 @@ header {
         border-radius: 50%;
         height: 13px;
         width: 13px;
+        position: relative;
+        top: -3px;
+        left: 9px;
+        background-color: white;
     }
 
     .dots-tag {
@@ -1090,7 +1100,7 @@ header {
         border-bottom: 1px solid rgb(240, 240, 240);
         box-sizing: border-box;
         padding-bottom: 16px;
-        padding-top: 16px;
+        padding-top: 18px;
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -1440,7 +1450,7 @@ header {
         border-bottom: 1px solid rgb(240, 240, 240);
         padding-left: 16px;
         padding-right: 16px;
-        padding-top: 12px;
+        padding-top: 13px;
         margin-left: 5px;
     }
 
@@ -1488,7 +1498,7 @@ header {
     .product-contents {
         display: flex;
         align-items: center;
-        padding-top: 18px;
+        padding-top: 0px;
     }
 
     .product-contents h1 {
@@ -2483,6 +2493,10 @@ header {
         line-height: 19.6px;
         font-family: 'font';
     }
+    .seller-cart-container{
+        display: flex;
+        flex-direction: row;
+    }
 
 
 }
@@ -2505,7 +2519,19 @@ header {
     }
 
     .tablet-header-tag {
-        padding-left: 45px;
+        padding-left: 57px;
+    }
+
+    .home-tag{
+        margin-right: -1px;
+    }
+
+    .brand-label{
+        padding-top: 17px;
+    }
+
+    .assured-section{
+        padding-top: 15px;
     }
 
     .search-bar-tag {
@@ -2538,6 +2564,10 @@ header {
         flex-direction: column;
         flex-grow: 1;
         overflow: auto;
+    }
+
+    .background-color-tag{
+        padding-top: 6px;
     }
 
     .product-contents {
@@ -2573,10 +2603,16 @@ header {
         padding-left: 0px;
     }
 
+    .mail-header{
+        margin-bottom: 7px;
+        margin-top: 2px;
+    }
+
     .final-footer-section-content {
         padding-left: 11px;
         padding-right: 23px;
     }
+
 
 
 }
@@ -2586,7 +2622,31 @@ header {
     .tablet-header-tag {
         display: flex;
         gap: 6px;
-        padding-left: 106px;
+        padding-left: 80px;
+    }
+
+    .seller-content-tag{
+        margin-left: 6px;
+        margin-right: 13px;
+    }
+
+    .seller-cart-container{
+        padding-left: 20px;
+        gap: 12px;
+    }
+
+    .more-tag{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .search-bar-icon{
+        padding-left: 8px;
+        padding-right: 14px;
+    }
+
+    .login-bar-tag a{
+        padding-top: 7px;
     }
 
     .search-bar-tag {
@@ -2630,6 +2690,10 @@ header {
 
     .product-nav-bar {
         margin-top: -1px;
+    }
+
+    .list-items-ram{
+        gap: 18px;
     }
 
     .main-body-container-desktop {
@@ -2712,7 +2776,7 @@ header {
     }
 
     .table-data-content {
-        width: 684px;
+        min-width: 684px;
     }
 
     .table-data-price {
@@ -2724,13 +2788,12 @@ header {
     }
 
     .login-bar-tag {
-        margin-left: 35px;
+        margin-left: 40px;
         margin-right: 8px;
     }
 
     .cart-content-tag {
-        margin-right: 0px;
-        padding-right: 65px;
+        padding-right: 14px;
     }
 
     .flipkart-memo {
@@ -2740,10 +2803,6 @@ header {
     .solution-type-container {
         padding-bottom: 11px;
     }
-
-   
-
-
 
 
 
